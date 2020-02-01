@@ -7,7 +7,7 @@
     </notes>
     <IF_curr_exp id="IF_curr_exp_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="-65." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_output" cm="0.09" i_offset="0." tau_syn_E="1." tau_syn_I="5." v_init="-65." tau_m="10." tau_refrac="1." v_reset="-70." v_rest="-65." v_thresh="-55."/>
-    <expCurrSynapse id="syn__mushroom to output put put" tau_syn="1."/>
+    <expCurrSynapse id="syn__" tau_syn="1."/>
     <network id="network">
         <population id="mushroom" component="IF_curr_exp_mushroom" size="10" type="populationList">
             <instance id="0">
@@ -58,7 +58,7 @@
                 <location x="4." y="0." z="0."/>
             </instance>
         </population>
-        <projection id="mushroom to output put put" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn__mushroom to output put put">
+        <projection id="" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn__">
             <connectionWD id="0" preCellId="../mushroom/0/IF_curr_exp_i_mushroom" postCellId="../output/0/IF_curr_exp_i_output" weight="0." delay="0.0ms"/>
             <connectionWD id="1" preCellId="../mushroom/7/IF_curr_exp_i_mushroom" postCellId="../output/0/IF_curr_exp_i_output" weight="0." delay="0.0ms"/>
             <connectionWD id="2" preCellId="../mushroom/6/IF_curr_exp_i_mushroom" postCellId="../output/0/IF_curr_exp_i_output" weight="0." delay="0.0ms"/>
