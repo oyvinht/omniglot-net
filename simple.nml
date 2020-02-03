@@ -1,0 +1,74 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="PyNN_NeuroML2_Export">
+    <notes>
+    This NeuroML 2 file has been generated from: 
+        PyNN v0.9.5
+        libNeuroML v0.2.47
+        pyNeuroML v0.3.15
+    </notes>
+    <IF_curr_exp id="IF_curr_exp_input" cm="0.09" i_offset="0." tau_syn_E="1." tau_syn_I="1." v_init="-65." tau_m="10." tau_refrac="1." v_reset="-70." v_rest="-65." v_thresh="-55."/>
+    <IF_curr_exp id="IF_curr_exp_output" cm="0.09" i_offset="0." tau_syn_E="1." tau_syn_I="1." v_init="-65." tau_m="10." tau_refrac="1." v_reset="-70." v_rest="-65." v_thresh="-55."/>
+    <expCurrSynapse id="syn__input__TO__output" tau_syn="1."/>
+    <network id="PyNN_NeuroML2_Export">
+        <population id="input" component="IF_curr_exp_input" size="5" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+            <instance id="1">
+                <location x="1." y="0." z="0."/>
+            </instance>
+            <instance id="2">
+                <location x="2." y="0." z="0."/>
+            </instance>
+            <instance id="3">
+                <location x="3." y="0." z="0."/>
+            </instance>
+            <instance id="4">
+                <location x="4." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="output" component="IF_curr_exp_output" size="5" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+            <instance id="1">
+                <location x="1." y="0." z="0."/>
+            </instance>
+            <instance id="2">
+                <location x="2." y="0." z="0."/>
+            </instance>
+            <instance id="3">
+                <location x="3." y="0." z="0."/>
+            </instance>
+            <instance id="4">
+                <location x="4." y="0." z="0."/>
+            </instance>
+        </population>
+        <projection id="input__TO__output" presynapticPopulation="input" postsynapticPopulation="output" synapse="syn__input__TO__output">
+            <connectionWD id="0" preCellId="../input/0/IF_curr_exp_input" postCellId="../output/0/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="1" preCellId="../input/1/IF_curr_exp_input" postCellId="../output/0/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="2" preCellId="../input/2/IF_curr_exp_input" postCellId="../output/0/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="3" preCellId="../input/3/IF_curr_exp_input" postCellId="../output/0/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="4" preCellId="../input/4/IF_curr_exp_input" postCellId="../output/0/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="5" preCellId="../input/0/IF_curr_exp_input" postCellId="../output/1/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="6" preCellId="../input/1/IF_curr_exp_input" postCellId="../output/1/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="7" preCellId="../input/2/IF_curr_exp_input" postCellId="../output/1/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="8" preCellId="../input/3/IF_curr_exp_input" postCellId="../output/1/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="9" preCellId="../input/4/IF_curr_exp_input" postCellId="../output/1/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="10" preCellId="../input/0/IF_curr_exp_input" postCellId="../output/2/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="11" preCellId="../input/1/IF_curr_exp_input" postCellId="../output/2/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="12" preCellId="../input/2/IF_curr_exp_input" postCellId="../output/2/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="13" preCellId="../input/3/IF_curr_exp_input" postCellId="../output/2/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="14" preCellId="../input/4/IF_curr_exp_input" postCellId="../output/2/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="15" preCellId="../input/0/IF_curr_exp_input" postCellId="../output/3/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="16" preCellId="../input/1/IF_curr_exp_input" postCellId="../output/3/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="17" preCellId="../input/2/IF_curr_exp_input" postCellId="../output/3/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="18" preCellId="../input/3/IF_curr_exp_input" postCellId="../output/3/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="19" preCellId="../input/4/IF_curr_exp_input" postCellId="../output/3/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="20" preCellId="../input/0/IF_curr_exp_input" postCellId="../output/4/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="21" preCellId="../input/1/IF_curr_exp_input" postCellId="../output/4/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="22" preCellId="../input/2/IF_curr_exp_input" postCellId="../output/4/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="23" preCellId="../input/3/IF_curr_exp_input" postCellId="../output/4/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+            <connectionWD id="24" preCellId="../input/4/IF_curr_exp_input" postCellId="../output/4/IF_curr_exp_output" weight="-5." delay="0.1ms"/>
+        </projection>
+    </network>
+</neuroml>
