@@ -1,8 +1,8 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="pynnnml_doc">
-    <IF_curr_exp id="IF_curr_exp_inh_mushroom"/>
-    <IF_curr_exp id="IF_curr_exp_output"/>
+    <IF_curr_alpha id="IF_curr_alpha_inh_mushroom"/>
+    <IF_curr_alpha id="IF_curr_alpha_output"/>
     <network id="network">
-        <population id="inh_mushroom" component="IF_curr_exp_inh_mushroom" size="16" type="populationList">
+        <population id="inh_mushroom" component="IF_curr_alpha_inh_mushroom" size="16" type="populationList">
             <instance id="0"/>
             <instance id="1"/>
             <instance id="2"/>
@@ -20,7 +20,7 @@
             <instance id="14"/>
             <instance id="15"/>
         </population>
-        <population id="output" component="IF_curr_exp_output" size="280" type="populationList">
+        <population id="output" component="IF_curr_alpha_output" size="280" type="populationList">
             <instance id="0"/>
             <instance id="1"/>
             <instance id="2"/>
