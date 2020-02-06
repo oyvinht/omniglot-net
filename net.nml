@@ -1,6 +1,6 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="pynnnml_doc">
-    <IF_curr_exp id="IF_cond_exp_inh_mushroom" i_offset="0." tau_refrac="1." v_reset="-70." v_rest="-65." v_thresh="-50."/>
-    <IF_curr_exp id="IF_cond_exp_output" i_offset="0." tau_refrac="1." v_reset="-70." v_rest="-65."/>
+    <IF_cond_exp id="IF_cond_exp_inh_mushroom" i_offset="0." tau_refrac="1." v_reset="-70." v_rest="-65." v_thresh="-50."/>
+    <IF_cond_exp id="IF_cond_exp_output" i_offset="0." tau_refrac="1." v_reset="-70." v_rest="-65."/>
     <network id="network">
         <population id="inh_mushroom" component="IF_cond_exp_inh_mushroom" size="16" type="populationList">
             <instance id="0"/>
