@@ -1,0 +1,789 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Net3DExample">
+    <expOneSynapse id="syn0" gbase="65nS" erev="0mV" tauDecay="3ms"/>
+    <cell id="Cell_0">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_1">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_2">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_3">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_4">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_5">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_6">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_7">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_8">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <cell id="Cell_9">
+        <morphology id="TestMorphology">
+            <segment id="0" name="Soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+                <distal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="10.0"/>
+            </segment>
+            <segment id="1" name="Dend_0">
+                <parent segment="0"/>
+                <proximal x="1.000000e+01" y="0.000000e+00" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="2" name="Dend_1">
+                <parent segment="1"/>
+                <proximal x="1.000000e+01" y="1.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="3" name="Dend_2">
+                <parent segment="2"/>
+                <proximal x="1.000000e+01" y="2.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="4" name="Dend_3">
+                <parent segment="3"/>
+                <proximal x="1.000000e+01" y="3.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="5" name="Dend_4">
+                <parent segment="4"/>
+                <proximal x="1.000000e+01" y="4.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="6" name="Dend_5">
+                <parent segment="5"/>
+                <proximal x="1.000000e+01" y="5.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="7" name="Dend_6">
+                <parent segment="6"/>
+                <proximal x="1.000000e+01" y="6.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="8" name="Dend_7">
+                <parent segment="7"/>
+                <proximal x="1.000000e+01" y="7.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="9" name="Dend_8">
+                <parent segment="8"/>
+                <proximal x="1.000000e+01" y="8.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+            <segment id="10" name="Dend_9">
+                <parent segment="9"/>
+                <proximal x="1.000000e+01" y="9.000000e+01" z="0.000000e+00" diameter="2.0"/>
+                <distal x="1.000000e+01" y="1.000000e+02" z="0.000000e+00" diameter="2.0"/>
+            </segment>
+        </morphology>
+    </cell>
+    <network id="Net3D">
+        <population id="Pop_0" component="Cell_0" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="83.598805912129265" y="315.35187605896698" z="5.65325967825081"/>
+            </instance>
+        </population>
+        <population id="Pop_1" component="Cell_1" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="159.802258560434012" y="409.855275495674562" z="188.651043586635751"/>
+            </instance>
+        </population>
+        <population id="Pop_2" component="Cell_2" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="148.372678664477007" y="333.502512329491537" z="343.723268411455251"/>
+            </instance>
+        </population>
+        <population id="Pop_3" component="Cell_3" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="321.711895300574099" y="490.125356288361843" z="76.961166992940093"/>
+            </instance>
+        </population>
+        <population id="Pop_4" component="Cell_4" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="241.42678472103475" y="467.236812581105937" z="276.105201009598943"/>
+            </instance>
+        </population>
+        <population id="Pop_5" component="Cell_5" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="306.016984968246049" y="161.031579500517836" z="40.499970030243638"/>
+            </instance>
+        </population>
+        <population id="Pop_6" component="Cell_6" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="16.637411252955868" y="301.027979424717444" z="332.394408077339619"/>
+            </instance>
+        </population>
+        <population id="Pop_7" component="Cell_7" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="169.109598266607549" y="179.555344382057569" z="293.942871119005417"/>
+            </instance>
+        </population>
+        <population id="Pop_8" component="Cell_8" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="194.59063661834125" y="15.160256024754126" z="44.846581354533285"/>
+            </instance>
+        </population>
+        <population id="Pop_9" component="Cell_9" type="populationList">
+            <property tag="color" value="1 0 0"/>
+            <instance id="0">
+                <location x="153.537436207044408" y="151.240740045125165" z="267.840419455067263"/>
+            </instance>
+        </population>
+        <projection id="Proj_0" presynapticPopulation="Pop_0" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="0" preCellId="Pop_0[0]" preFractionAlong="0.19422114702549775" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.09414909613683375"/>
+        </projection>
+        <projection id="Proj_1" presynapticPopulation="Pop_0" postsynapticPopulation="Pop_3" synapse="syn0">
+            <connection id="1" preCellId="Pop_0[0]" preFractionAlong="0.22424006355262416" postCellId="Pop_3[0]" postSegmentId="1" postFractionAlong="0.08195565690610385"/>
+        </projection>
+        <projection id="Proj_2" presynapticPopulation="Pop_0" postsynapticPopulation="Pop_7" synapse="syn0">
+            <connection id="2" preCellId="Pop_0[0]" preFractionAlong="0.9555993084820578" postCellId="Pop_7[0]" postSegmentId="1" postFractionAlong="0.7999542110806809"/>
+        </projection>
+        <projection id="Proj_3" presynapticPopulation="Pop_0" postsynapticPopulation="Pop_8" synapse="syn0">
+            <connection id="3" preCellId="Pop_0[0]" preFractionAlong="0.8298421154294341" postCellId="Pop_8[0]" postSegmentId="1" postFractionAlong="0.8669790116308422"/>
+        </projection>
+        <projection id="Proj_4" presynapticPopulation="Pop_1" postsynapticPopulation="Pop_0" synapse="syn0">
+            <connection id="4" preCellId="Pop_1[0]" preFractionAlong="0.48785882154502624" postCellId="Pop_0[0]" postSegmentId="1" postFractionAlong="0.5033150959622681"/>
+        </projection>
+        <projection id="Proj_5" presynapticPopulation="Pop_1" postsynapticPopulation="Pop_2" synapse="syn0">
+            <connection id="5" preCellId="Pop_1[0]" preFractionAlong="0.2999063225515395" postCellId="Pop_2[0]" postSegmentId="1" postFractionAlong="0.5434059853284694"/>
+        </projection>
+        <projection id="Proj_6" presynapticPopulation="Pop_1" postsynapticPopulation="Pop_6" synapse="syn0">
+            <connection id="6" preCellId="Pop_1[0]" preFractionAlong="0.08901883071048644" postCellId="Pop_6[0]" postSegmentId="1" postFractionAlong="0.0845495978947498"/>
+        </projection>
+        <projection id="Proj_7" presynapticPopulation="Pop_1" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="7" preCellId="Pop_1[0]" preFractionAlong="0.3386907324850037" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.9101069642288957"/>
+        </projection>
+        <projection id="Proj_8" presynapticPopulation="Pop_2" postsynapticPopulation="Pop_0" synapse="syn0">
+            <connection id="8" preCellId="Pop_2[0]" preFractionAlong="0.7473767591653913" postCellId="Pop_0[0]" postSegmentId="1" postFractionAlong="0.7218597418183799"/>
+        </projection>
+        <projection id="Proj_9" presynapticPopulation="Pop_2" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="9" preCellId="Pop_2[0]" preFractionAlong="0.9119538804028093" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.990618667242315"/>
+        </projection>
+        <projection id="Proj_10" presynapticPopulation="Pop_2" postsynapticPopulation="Pop_4" synapse="syn0">
+            <connection id="10" preCellId="Pop_2[0]" preFractionAlong="0.006799524805469859" postCellId="Pop_4[0]" postSegmentId="1" postFractionAlong="0.0334488451663808"/>
+        </projection>
+        <projection id="Proj_11" presynapticPopulation="Pop_2" postsynapticPopulation="Pop_6" synapse="syn0">
+            <connection id="11" preCellId="Pop_2[0]" preFractionAlong="0.3564152443142752" postCellId="Pop_6[0]" postSegmentId="1" postFractionAlong="0.5201658740404126"/>
+        </projection>
+        <projection id="Proj_12" presynapticPopulation="Pop_2" postsynapticPopulation="Pop_7" synapse="syn0">
+            <connection id="12" preCellId="Pop_2[0]" preFractionAlong="0.8982185548495276" postCellId="Pop_7[0]" postSegmentId="1" postFractionAlong="0.8303326338353049"/>
+        </projection>
+        <projection id="Proj_13" presynapticPopulation="Pop_3" postsynapticPopulation="Pop_2" synapse="syn0">
+            <connection id="13" preCellId="Pop_3[0]" preFractionAlong="0.9333701301680927" postCellId="Pop_2[0]" postSegmentId="1" postFractionAlong="0.23543405624799063"/>
+        </projection>
+        <projection id="Proj_14" presynapticPopulation="Pop_3" postsynapticPopulation="Pop_5" synapse="syn0">
+            <connection id="14" preCellId="Pop_3[0]" preFractionAlong="0.9694861481321507" postCellId="Pop_5[0]" postSegmentId="1" postFractionAlong="0.3724316659796961"/>
+        </projection>
+        <projection id="Proj_15" presynapticPopulation="Pop_3" postsynapticPopulation="Pop_8" synapse="syn0">
+            <connection id="15" preCellId="Pop_3[0]" preFractionAlong="0.6938704355341248" postCellId="Pop_8[0]" postSegmentId="1" postFractionAlong="0.7973956008379193"/>
+        </projection>
+        <projection id="Proj_16" presynapticPopulation="Pop_3" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="16" preCellId="Pop_3[0]" preFractionAlong="0.3842390521921438" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.4810675799534574"/>
+        </projection>
+        <projection id="Proj_17" presynapticPopulation="Pop_4" postsynapticPopulation="Pop_0" synapse="syn0">
+            <connection id="17" preCellId="Pop_4[0]" preFractionAlong="0.897325767740505" postCellId="Pop_0[0]" postSegmentId="1" postFractionAlong="0.2852429116656968"/>
+        </projection>
+        <projection id="Proj_18" presynapticPopulation="Pop_4" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="18" preCellId="Pop_4[0]" preFractionAlong="0.2932552331251471" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.5509458470378138"/>
+        </projection>
+        <projection id="Proj_19" presynapticPopulation="Pop_4" postsynapticPopulation="Pop_2" synapse="syn0">
+            <connection id="19" preCellId="Pop_4[0]" preFractionAlong="0.9658737292200837" postCellId="Pop_2[0]" postSegmentId="1" postFractionAlong="0.08655931892869162"/>
+        </projection>
+        <projection id="Proj_20" presynapticPopulation="Pop_4" postsynapticPopulation="Pop_7" synapse="syn0">
+            <connection id="20" preCellId="Pop_4[0]" preFractionAlong="0.983785718353787" postCellId="Pop_7[0]" postSegmentId="1" postFractionAlong="0.2490889148829487"/>
+        </projection>
+        <projection id="Proj_21" presynapticPopulation="Pop_4" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="21" preCellId="Pop_4[0]" preFractionAlong="0.23095061719822707" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.5386437660476184"/>
+        </projection>
+        <projection id="Proj_22" presynapticPopulation="Pop_5" postsynapticPopulation="Pop_2" synapse="syn0">
+            <connection id="22" preCellId="Pop_5[0]" preFractionAlong="0.33048978889796654" postCellId="Pop_2[0]" postSegmentId="1" postFractionAlong="0.350696586488922"/>
+        </projection>
+        <projection id="Proj_23" presynapticPopulation="Pop_5" postsynapticPopulation="Pop_3" synapse="syn0">
+            <connection id="23" preCellId="Pop_5[0]" preFractionAlong="0.1836489362966648" postCellId="Pop_3[0]" postSegmentId="1" postFractionAlong="0.02769245381969221"/>
+        </projection>
+        <projection id="Proj_24" presynapticPopulation="Pop_5" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="24" preCellId="Pop_5[0]" preFractionAlong="0.20430569900411" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.5842644817984018"/>
+        </projection>
+        <projection id="Proj_25" presynapticPopulation="Pop_6" postsynapticPopulation="Pop_0" synapse="syn0">
+            <connection id="25" preCellId="Pop_6[0]" preFractionAlong="0.9196537130556223" postCellId="Pop_0[0]" postSegmentId="1" postFractionAlong="0.050948462206889644"/>
+        </projection>
+        <projection id="Proj_26" presynapticPopulation="Pop_6" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="26" preCellId="Pop_6[0]" preFractionAlong="0.33106478194076183" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.296783190732403"/>
+        </projection>
+        <projection id="Proj_27" presynapticPopulation="Pop_6" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="27" preCellId="Pop_6[0]" preFractionAlong="0.36299026418654134" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.8396399220281351"/>
+        </projection>
+        <projection id="Proj_28" presynapticPopulation="Pop_7" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="28" preCellId="Pop_7[0]" preFractionAlong="0.21305366623459876" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.7053838008263348"/>
+        </projection>
+        <projection id="Proj_29" presynapticPopulation="Pop_7" postsynapticPopulation="Pop_4" synapse="syn0">
+            <connection id="29" preCellId="Pop_7[0]" preFractionAlong="0.21077649881168503" postCellId="Pop_4[0]" postSegmentId="1" postFractionAlong="0.679484857883278"/>
+        </projection>
+        <projection id="Proj_30" presynapticPopulation="Pop_7" postsynapticPopulation="Pop_5" synapse="syn0">
+            <connection id="30" preCellId="Pop_7[0]" preFractionAlong="0.11552094321134387" postCellId="Pop_5[0]" postSegmentId="1" postFractionAlong="0.7915385121113402"/>
+        </projection>
+        <projection id="Proj_31" presynapticPopulation="Pop_7" postsynapticPopulation="Pop_6" synapse="syn0">
+            <connection id="31" preCellId="Pop_7[0]" preFractionAlong="0.35254094749554965" postCellId="Pop_6[0]" postSegmentId="1" postFractionAlong="0.9990606890390512"/>
+        </projection>
+        <projection id="Proj_32" presynapticPopulation="Pop_7" postsynapticPopulation="Pop_8" synapse="syn0">
+            <connection id="32" preCellId="Pop_7[0]" preFractionAlong="0.2358748561771975" postCellId="Pop_8[0]" postSegmentId="1" postFractionAlong="0.22758480200400433"/>
+        </projection>
+        <projection id="Proj_33" presynapticPopulation="Pop_7" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="33" preCellId="Pop_7[0]" preFractionAlong="0.9785636891388524" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.6938036722099595"/>
+        </projection>
+        <projection id="Proj_34" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_0" synapse="syn0">
+            <connection id="34" preCellId="Pop_8[0]" preFractionAlong="0.9956524514604028" postCellId="Pop_0[0]" postSegmentId="1" postFractionAlong="0.511282858105983"/>
+        </projection>
+        <projection id="Proj_35" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="35" preCellId="Pop_8[0]" preFractionAlong="0.2085261338162957" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.06288626555415067"/>
+        </projection>
+        <projection id="Proj_36" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_3" synapse="syn0">
+            <connection id="36" preCellId="Pop_8[0]" preFractionAlong="0.9354057008964505" postCellId="Pop_3[0]" postSegmentId="1" postFractionAlong="0.5848689487720633"/>
+        </projection>
+        <projection id="Proj_37" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_4" synapse="syn0">
+            <connection id="37" preCellId="Pop_8[0]" preFractionAlong="0.7573771969580975" postCellId="Pop_4[0]" postSegmentId="1" postFractionAlong="0.8694103741982643"/>
+        </projection>
+        <projection id="Proj_38" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_5" synapse="syn0">
+            <connection id="38" preCellId="Pop_8[0]" preFractionAlong="0.19506117537838108" postCellId="Pop_5[0]" postSegmentId="1" postFractionAlong="0.5861705428743217"/>
+        </projection>
+        <projection id="Proj_39" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_6" synapse="syn0">
+            <connection id="39" preCellId="Pop_8[0]" preFractionAlong="0.6564471883293139" postCellId="Pop_6[0]" postSegmentId="1" postFractionAlong="0.8090350296811175"/>
+        </projection>
+        <projection id="Proj_40" presynapticPopulation="Pop_8" postsynapticPopulation="Pop_9" synapse="syn0">
+            <connection id="40" preCellId="Pop_8[0]" preFractionAlong="0.5238118152690305" postCellId="Pop_9[0]" postSegmentId="1" postFractionAlong="0.8551748007018761"/>
+        </projection>
+        <projection id="Proj_41" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_1" synapse="syn0">
+            <connection id="41" preCellId="Pop_9[0]" preFractionAlong="0.40415055554201273" postCellId="Pop_1[0]" postSegmentId="1" postFractionAlong="0.790937682034964"/>
+        </projection>
+        <projection id="Proj_42" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_2" synapse="syn0">
+            <connection id="42" preCellId="Pop_9[0]" preFractionAlong="0.5916427501276257" postCellId="Pop_2[0]" postSegmentId="1" postFractionAlong="0.7473597878899955"/>
+        </projection>
+        <projection id="Proj_43" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_3" synapse="syn0">
+            <connection id="43" preCellId="Pop_9[0]" preFractionAlong="0.38755887890165575" postCellId="Pop_3[0]" postSegmentId="1" postFractionAlong="0.37543861042724036"/>
+        </projection>
+        <projection id="Proj_44" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_5" synapse="syn0">
+            <connection id="44" preCellId="Pop_9[0]" preFractionAlong="0.47047605712929386" postCellId="Pop_5[0]" postSegmentId="1" postFractionAlong="0.36819769609769115"/>
+        </projection>
+        <projection id="Proj_45" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_6" synapse="syn0">
+            <connection id="45" preCellId="Pop_9[0]" preFractionAlong="0.17840524755758813" postCellId="Pop_6[0]" postSegmentId="1" postFractionAlong="0.8402709377091266"/>
+        </projection>
+        <projection id="Proj_46" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_7" synapse="syn0">
+            <connection id="46" preCellId="Pop_9[0]" preFractionAlong="0.12798476528812808" postCellId="Pop_7[0]" postSegmentId="1" postFractionAlong="0.2604545947010496"/>
+        </projection>
+        <projection id="Proj_47" presynapticPopulation="Pop_9" postsynapticPopulation="Pop_8" synapse="syn0">
+            <connection id="47" preCellId="Pop_9[0]" preFractionAlong="0.9750012417822107" postCellId="Pop_8[0]" postSegmentId="1" postFractionAlong="0.14254078955833316"/>
+        </projection>
+    </network>
+</neuroml>
