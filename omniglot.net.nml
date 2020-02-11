@@ -9,6 +9,8 @@
     <IF_curr_exp id="IF_curr_exp_inh_output" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <expCurrSynapse id="syn_0" tau_syn="1."/>
     <expCurrSynapse id="syn_1" tau_syn="1."/>
+    <expCurrSynapse id="syn_2" tau_syn="1."/>
+    <expCurrSynapse id="syn_3" tau_syn="1."/>
     <network id="network">
         <population id="input_layer_0" component="SpikeArray_input_layer_0" size="10" type="populationList">
             <instance id="0">
@@ -244,6 +246,12 @@
         </projection>
         <projection id="projection_1" presynapticPopulation="inh_output" postsynapticPopulation="output" synapse="syn_1">
             <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/0/IF_curr_exp_output"/>
+        </projection>
+        <projection id="projection_2" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_2">
+            <connection id="2" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+        </projection>
+        <projection id="projection_3" presynapticPopulation="inh_mushroom" postsynapticPopulation="mushroom" synapse="syn_3">
+            <connection id="3" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
         </projection>
     </network>
 </neuroml>
