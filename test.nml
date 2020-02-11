@@ -1,9 +1,52 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="PyNN_NeuroML2_Export">
+    <notes>
+    This NeuroML 2 file has been generated from: 
+        PyNN v0.9.5
+        libNeuroML v0.2.47
+        pyNeuroML v0.3.15
+    </notes>
+    <IF_curr_alpha id="IF_curr_alpha_pop_IF_curr_alpha" cm="1." i_offset="0.9" tau_syn_E="2." tau_syn_I="5." v_init="-65." tau_m="20." tau_refrac="10." v_reset="-62." v_rest="-65." v_thresh="-52."/>
+    <IF_curr_exp id="IF_curr_exp_pop_IF_curr_exp" cm="1." i_offset="1." tau_syn_E="2." tau_syn_I="5." v_init="-65." tau_m="20." tau_refrac="8." v_reset="-70." v_rest="-65." v_thresh="-50."/>
+    <IF_cond_alpha id="IF_cond_alpha_pop_IF_cond_alpha" cm="1." i_offset="0.9" tau_syn_E="2." tau_syn_I="5." v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="0." e_rev_I="-70."/>
     <IF_cond_alpha id="IF_cond_alpha_pop_post2" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="10." v_reset="-62." v_rest="-65." v_thresh="-52." e_rev_E="0." e_rev_I="-70."/>
+    <IF_cond_exp id="IF_cond_exp_pop_IF_cond_exp" cm="1." i_offset="1." tau_syn_E="2." tau_syn_I="5." v_init="-65." tau_m="20." tau_refrac="5." v_reset="-68." v_rest="-65." v_thresh="-52." e_rev_E="0." e_rev_I="-70."/>
+    <IF_cond_exp id="IF_cond_exp_pop_post1" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="-65." tau_m="20." tau_refrac="10." v_reset="-62." v_rest="-65." v_thresh="-52." e_rev_E="0." e_rev_I="-70."/>
     <EIF_cond_exp_isfa_ista id="EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" cm="0.281" i_offset="0.6" tau_syn_E="5." tau_syn_I="5." v_init="-70.599999999999994" tau_m="9.3667" tau_refrac="0." v_reset="-68." v_rest="-70.599999999999994" v_thresh="-52." e_rev_E="0." e_rev_I="-80." a="0." b="0.0805" delta_T="2." tau_w="144." v_spike="-40."/>
+    <HH_cond_exp id="HH_cond_exp_pop_HH_cond_exp" cm="0.2" i_offset="0.2" tau_syn_E="0.2" tau_syn_I="2." v_init="-65." v_offset="-63." e_rev_E="0." e_rev_I="-80." e_rev_K="-90." e_rev_Na="50." e_rev_leak="-65." g_leak="0.01" gbar_K="6." gbar_Na="20."/>
+    <expCondSynapse id="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post1" tau_syn="5." e_rev="0."/>
     <alphaCondSynapse id="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post2" tau_syn="5." e_rev="0."/>
     <network id="PyNN_NeuroML2_Export">
+        <population id="pop_IF_curr_alpha" component="IF_curr_alpha_pop_IF_curr_alpha" size="1" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_IF_curr_exp" component="IF_curr_exp_pop_IF_curr_exp" size="1" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_IF_cond_alpha" component="IF_cond_alpha_pop_IF_cond_alpha" size="1" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_IF_cond_exp" component="IF_cond_exp_pop_IF_cond_exp" size="1" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
         <population id="pop_EIF_cond_exp_isfa_ista" component="EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" size="1" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_HH_cond_exp" component="HH_cond_exp_pop_HH_cond_exp" size="1" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_post1" component="IF_cond_exp_pop_post1" size="1" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
@@ -13,6 +56,9 @@
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
+        <projection id="pop_EIF_cond_exp_isfa_ista__TO__pop_post1" presynapticPopulation="pop_EIF_cond_exp_isfa_ista" postsynapticPopulation="pop_post1" synapse="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post1">
+            <connectionWD id="0" preCellId="../pop_EIF_cond_exp_isfa_ista/0/EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" postCellId="../pop_post1/0/IF_cond_exp_pop_post1" weight="0.01" delay="10.0ms"/>
+        </projection>
         <projection id="pop_EIF_cond_exp_isfa_ista__TO__pop_post2" presynapticPopulation="pop_EIF_cond_exp_isfa_ista" postsynapticPopulation="pop_post2" synapse="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post2">
             <connectionWD id="0" preCellId="../pop_EIF_cond_exp_isfa_ista/0/EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" postCellId="../pop_post2/0/IF_cond_alpha_pop_post2" weight="0.005" delay="20.0ms"/>
         </projection>
