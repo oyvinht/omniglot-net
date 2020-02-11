@@ -1,7 +1,8 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="pynnnml_doc">
-    <expOneSynapse id="syn0" gbase="65nS" erev="0mV" tauDecay="3ms"/>
     <IF_curr_exp id="IF_curr_exp_output" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_inh_output" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
+    <expCurrSynapse id="syn_0" tau_syn="1."/>
+    <expCurrSynapse id="syn_1" tau_syn="1."/>
     <network id="network">
         <population id="output" component="IF_curr_exp_output" size="280" type="populationList">
             <instance id="0">
@@ -850,8 +851,11 @@
                 <location x="0." y="0." z="4."/>
             </instance>
         </population>
-        <projection id="projection_0" presynapticPopulation="output" postsynapticPopulation="inh_output" synapse="syn0">
+        <projection id="projection_0" presynapticPopulation="output" postsynapticPopulation="inh_output" synapse="syn_0">
             <connection id="0" preCellId="../output/0/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+        </projection>
+        <projection id="projection_1" presynapticPopulation="inh_output" postsynapticPopulation="output" synapse="syn_1">
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/0/IF_curr_exp_output"/>
         </projection>
     </network>
 </neuroml>
