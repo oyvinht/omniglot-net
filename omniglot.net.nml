@@ -11,6 +11,11 @@
     <expCurrSynapse id="syn_1" tau_syn="1."/>
     <expCurrSynapse id="syn_2" tau_syn="1."/>
     <expCurrSynapse id="syn_3" tau_syn="1."/>
+    <expCurrSynapse id="syn_4" tau_syn="1."/>
+    <expCurrSynapse id="syn_5" tau_syn="1."/>
+    <expCurrSynapse id="syn_6" tau_syn="1."/>
+    <expCurrSynapse id="syn_7" tau_syn="1."/>
+    <expCurrSynapse id="syn_8" tau_syn="1."/>
     <network id="network">
         <population id="input_layer_0" component="SpikeArray_input_layer_0" size="10" type="populationList">
             <instance id="0">
@@ -252,6 +257,21 @@
         </projection>
         <projection id="projection_3" presynapticPopulation="inh_mushroom" postsynapticPopulation="mushroom" synapse="syn_3">
             <connection id="3" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4">
+            <connection id="4" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+        </projection>
+        <projection id="projection_5" presynapticPopulation="input_layer_0" postsynapticPopulation="mushroom" synapse="syn_5">
+            <connection id="5" preCellId="../input_layer_0/0/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="projection_6" presynapticPopulation="input_layer_1" postsynapticPopulation="mushroom" synapse="syn_6">
+            <connection id="6" preCellId="../input_layer_1/0/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="projection_7" presynapticPopulation="input_layer_2" postsynapticPopulation="mushroom" synapse="syn_7">
+            <connection id="7" preCellId="../input_layer_2/0/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="projection_8" presynapticPopulation="input_layer_3" postsynapticPopulation="mushroom" synapse="syn_8">
+            <connection id="8" preCellId="../input_layer_3/0/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
         </projection>
     </network>
 </neuroml>
