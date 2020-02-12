@@ -17,7 +17,7 @@
     <expCurrSynapse id="syn_7" tau_syn="5."/>
     <expCurrSynapse id="syn_8" tau_syn="5."/>
     <network id="network">
-        <population id="input_layer_0" component="SpikeArray_input_layer_0" size="20" type="populationList">
+        <population id="input_layer_0" component="SpikeArray_input_layer_0" size="32" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
@@ -78,8 +78,44 @@
             <instance id="19">
                 <location x="19." y="0." z="0."/>
             </instance>
+            <instance id="20">
+                <location x="20." y="0." z="0."/>
+            </instance>
+            <instance id="21">
+                <location x="21." y="0." z="0."/>
+            </instance>
+            <instance id="22">
+                <location x="22." y="0." z="0."/>
+            </instance>
+            <instance id="23">
+                <location x="23." y="0." z="0."/>
+            </instance>
+            <instance id="24">
+                <location x="24." y="0." z="0."/>
+            </instance>
+            <instance id="25">
+                <location x="25." y="0." z="0."/>
+            </instance>
+            <instance id="26">
+                <location x="26." y="0." z="0."/>
+            </instance>
+            <instance id="27">
+                <location x="27." y="0." z="0."/>
+            </instance>
+            <instance id="28">
+                <location x="28." y="0." z="0."/>
+            </instance>
+            <instance id="29">
+                <location x="29." y="0." z="0."/>
+            </instance>
+            <instance id="30">
+                <location x="30." y="0." z="0."/>
+            </instance>
+            <instance id="31">
+                <location x="31." y="0." z="0."/>
+            </instance>
         </population>
-        <population id="input_layer_1" component="SpikeArray_input_layer_1" size="20" type="populationList">
+        <population id="input_layer_1" component="SpikeArray_input_layer_1" size="32" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="4."/>
             </instance>
@@ -140,8 +176,44 @@
             <instance id="19">
                 <location x="19." y="0." z="4."/>
             </instance>
+            <instance id="20">
+                <location x="20." y="0." z="4."/>
+            </instance>
+            <instance id="21">
+                <location x="21." y="0." z="4."/>
+            </instance>
+            <instance id="22">
+                <location x="22." y="0." z="4."/>
+            </instance>
+            <instance id="23">
+                <location x="23." y="0." z="4."/>
+            </instance>
+            <instance id="24">
+                <location x="24." y="0." z="4."/>
+            </instance>
+            <instance id="25">
+                <location x="25." y="0." z="4."/>
+            </instance>
+            <instance id="26">
+                <location x="26." y="0." z="4."/>
+            </instance>
+            <instance id="27">
+                <location x="27." y="0." z="4."/>
+            </instance>
+            <instance id="28">
+                <location x="28." y="0." z="4."/>
+            </instance>
+            <instance id="29">
+                <location x="29." y="0." z="4."/>
+            </instance>
+            <instance id="30">
+                <location x="30." y="0." z="4."/>
+            </instance>
+            <instance id="31">
+                <location x="31." y="0." z="4."/>
+            </instance>
         </population>
-        <population id="input_layer_2" component="SpikeArray_input_layer_2" size="20" type="populationList">
+        <population id="input_layer_2" component="SpikeArray_input_layer_2" size="32" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="8."/>
             </instance>
@@ -202,8 +274,44 @@
             <instance id="19">
                 <location x="4." y="1." z="8."/>
             </instance>
+            <instance id="20">
+                <location x="5." y="1." z="8."/>
+            </instance>
+            <instance id="21">
+                <location x="6." y="1." z="8."/>
+            </instance>
+            <instance id="22">
+                <location x="7." y="1." z="8."/>
+            </instance>
+            <instance id="23">
+                <location x="8." y="1." z="8."/>
+            </instance>
+            <instance id="24">
+                <location x="9." y="1." z="8."/>
+            </instance>
+            <instance id="25">
+                <location x="10." y="1." z="8."/>
+            </instance>
+            <instance id="26">
+                <location x="11." y="1." z="8."/>
+            </instance>
+            <instance id="27">
+                <location x="12." y="1." z="8."/>
+            </instance>
+            <instance id="28">
+                <location x="13." y="1." z="8."/>
+            </instance>
+            <instance id="29">
+                <location x="14." y="1." z="8."/>
+            </instance>
+            <instance id="30">
+                <location x="0." y="2." z="8."/>
+            </instance>
+            <instance id="31">
+                <location x="1." y="2." z="8."/>
+            </instance>
         </population>
-        <population id="input_layer_3" component="SpikeArray_input_layer_3" size="20" type="populationList">
+        <population id="input_layer_3" component="SpikeArray_input_layer_3" size="32" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="12."/>
             </instance>
@@ -264,8 +372,44 @@
             <instance id="19">
                 <location x="4." y="1." z="12."/>
             </instance>
+            <instance id="20">
+                <location x="5." y="1." z="12."/>
+            </instance>
+            <instance id="21">
+                <location x="6." y="1." z="12."/>
+            </instance>
+            <instance id="22">
+                <location x="7." y="1." z="12."/>
+            </instance>
+            <instance id="23">
+                <location x="8." y="1." z="12."/>
+            </instance>
+            <instance id="24">
+                <location x="9." y="1." z="12."/>
+            </instance>
+            <instance id="25">
+                <location x="10." y="1." z="12."/>
+            </instance>
+            <instance id="26">
+                <location x="11." y="1." z="12."/>
+            </instance>
+            <instance id="27">
+                <location x="12." y="1." z="12."/>
+            </instance>
+            <instance id="28">
+                <location x="13." y="1." z="12."/>
+            </instance>
+            <instance id="29">
+                <location x="14." y="1." z="12."/>
+            </instance>
+            <instance id="30">
+                <location x="0." y="2." z="12."/>
+            </instance>
+            <instance id="31">
+                <location x="1." y="2." z="12."/>
+            </instance>
         </population>
-        <population id="mushroom" component="IF_curr_exp_mushroom" size="20" type="populationList">
+        <population id="mushroom" component="IF_curr_exp_mushroom" size="32" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="16."/>
             </instance>
@@ -326,6 +470,42 @@
             <instance id="19">
                 <location x="19." y="0." z="16."/>
             </instance>
+            <instance id="20">
+                <location x="20." y="0." z="16."/>
+            </instance>
+            <instance id="21">
+                <location x="21." y="0." z="16."/>
+            </instance>
+            <instance id="22">
+                <location x="22." y="0." z="16."/>
+            </instance>
+            <instance id="23">
+                <location x="23." y="0." z="16."/>
+            </instance>
+            <instance id="24">
+                <location x="24." y="0." z="16."/>
+            </instance>
+            <instance id="25">
+                <location x="25." y="0." z="16."/>
+            </instance>
+            <instance id="26">
+                <location x="26." y="0." z="16."/>
+            </instance>
+            <instance id="27">
+                <location x="27." y="0." z="16."/>
+            </instance>
+            <instance id="28">
+                <location x="28." y="0." z="16."/>
+            </instance>
+            <instance id="29">
+                <location x="29." y="0." z="16."/>
+            </instance>
+            <instance id="30">
+                <location x="30." y="0." z="16."/>
+            </instance>
+            <instance id="31">
+                <location x="31." y="0." z="16."/>
+            </instance>
         </population>
         <population id="inh_mushroom" component="IF_curr_exp_inh_mushroom" size="16" type="populationList">
             <instance id="0">
@@ -377,7 +557,7 @@
                 <location x="3." y="3." z="20."/>
             </instance>
         </population>
-        <population id="output" component="IF_curr_exp_output" size="20" type="populationList">
+        <population id="output" component="IF_curr_exp_output" size="32" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="24."/>
             </instance>
@@ -438,6 +618,42 @@
             <instance id="19">
                 <location x="3." y="1." z="24."/>
             </instance>
+            <instance id="20">
+                <location x="4." y="1." z="24."/>
+            </instance>
+            <instance id="21">
+                <location x="5." y="1." z="24."/>
+            </instance>
+            <instance id="22">
+                <location x="6." y="1." z="24."/>
+            </instance>
+            <instance id="23">
+                <location x="7." y="1." z="24."/>
+            </instance>
+            <instance id="24">
+                <location x="8." y="1." z="24."/>
+            </instance>
+            <instance id="25">
+                <location x="9." y="1." z="24."/>
+            </instance>
+            <instance id="26">
+                <location x="10." y="1." z="24."/>
+            </instance>
+            <instance id="27">
+                <location x="11." y="1." z="24."/>
+            </instance>
+            <instance id="28">
+                <location x="12." y="1." z="24."/>
+            </instance>
+            <instance id="29">
+                <location x="13." y="1." z="24."/>
+            </instance>
+            <instance id="30">
+                <location x="14." y="1." z="24."/>
+            </instance>
+            <instance id="31">
+                <location x="15." y="1." z="24."/>
+            </instance>
         </population>
         <population id="inh_output" component="IF_curr_exp_inh_output" size="1" type="populationList">
             <instance id="0">
@@ -465,6 +681,18 @@
             <connection id="0" preCellId="../output/17/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
             <connection id="0" preCellId="../output/18/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
             <connection id="0" preCellId="../output/19/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/20/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/21/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/22/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/23/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/24/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/25/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/26/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/27/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/28/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/29/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/30/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="0" preCellId="../output/31/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
         </projection>
         <projection id="projection_1" presynapticPopulation="inh_output" postsynapticPopulation="output" synapse="syn_1">
             <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/0/IF_curr_exp_output"/>
@@ -487,6 +715,18 @@
             <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/17/IF_curr_exp_output"/>
             <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/18/IF_curr_exp_output"/>
             <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/19/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/20/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/21/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/22/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/23/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/24/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/25/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/26/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/27/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/28/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/29/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/30/IF_curr_exp_output"/>
+            <connection id="1" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/31/IF_curr_exp_output"/>
         </projection>
         <projection id="projection_2" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_2">
             <connection id="2" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
@@ -569,6 +809,54 @@
             <connection id="2" preCellId="../mushroom/19/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
             <connection id="2" preCellId="../mushroom/19/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
             <connection id="2" preCellId="../mushroom/19/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../inh_mushroom/1/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../inh_mushroom/2/IF_curr_exp_inh_mushroom"/>
+            <connection id="2" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../inh_mushroom/3/IF_curr_exp_inh_mushroom"/>
         </projection>
         <projection id="projection_3" presynapticPopulation="inh_mushroom" postsynapticPopulation="mushroom" synapse="syn_3">
             <connection id="3" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
@@ -651,6 +939,54 @@
             <connection id="3" preCellId="../inh_mushroom/19/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
             <connection id="3" preCellId="../inh_mushroom/19/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
             <connection id="3" preCellId="../inh_mushroom/19/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/20/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/20/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/20/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/20/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/21/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/21/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/21/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/21/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/22/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/22/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/22/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/22/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/23/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/23/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/23/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/23/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/24/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/24/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/24/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/24/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/25/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/25/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/25/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/25/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/26/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/26/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/26/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/26/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/27/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/27/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/27/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/27/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/28/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/28/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/28/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/28/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/29/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/29/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/29/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/29/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/30/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/30/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/30/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/30/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/31/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/31/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/31/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="3" preCellId="../inh_mushroom/31/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4">
             <connection id="4" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
@@ -733,6 +1069,54 @@
             <connection id="4" preCellId="../mushroom/19/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
             <connection id="4" preCellId="../mushroom/19/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
             <connection id="4" preCellId="../mushroom/19/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/20/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/21/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/22/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/23/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/24/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/25/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/26/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/27/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/28/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/29/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/30/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../output/1/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/31/IF_curr_exp_mushroom" postCellId="../output/3/IF_curr_exp_output"/>
         </projection>
         <projection id="projection_5" presynapticPopulation="input_layer_0" postsynapticPopulation="mushroom" synapse="syn_5">
             <connection id="5" preCellId="../input_layer_0/0/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
@@ -815,6 +1199,54 @@
             <connection id="5" preCellId="../input_layer_0/19/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
             <connection id="5" preCellId="../input_layer_0/19/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
             <connection id="5" preCellId="../input_layer_0/19/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/20/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/20/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/20/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/20/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/21/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/21/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/21/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/21/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/22/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/22/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/22/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/22/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/23/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/23/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/23/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/23/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/24/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/24/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/24/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/24/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/25/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/25/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/25/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/25/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/26/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/26/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/26/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/26/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/27/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/27/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/27/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/27/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/28/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/28/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/28/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/28/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/29/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/29/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/29/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/29/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/30/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/30/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/30/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/30/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/31/SpikeArray_input_layer_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/31/SpikeArray_input_layer_0" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/31/SpikeArray_input_layer_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="5" preCellId="../input_layer_0/31/SpikeArray_input_layer_0" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_6" presynapticPopulation="input_layer_1" postsynapticPopulation="mushroom" synapse="syn_6">
             <connection id="6" preCellId="../input_layer_1/0/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
@@ -897,6 +1329,54 @@
             <connection id="6" preCellId="../input_layer_1/19/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
             <connection id="6" preCellId="../input_layer_1/19/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
             <connection id="6" preCellId="../input_layer_1/19/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/20/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/20/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/20/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/20/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/21/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/21/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/21/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/21/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/22/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/22/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/22/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/22/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/23/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/23/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/23/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/23/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/24/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/24/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/24/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/24/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/25/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/25/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/25/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/25/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/26/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/26/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/26/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/26/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/27/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/27/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/27/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/27/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/28/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/28/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/28/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/28/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/29/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/29/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/29/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/29/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/30/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/30/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/30/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/30/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/31/SpikeArray_input_layer_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/31/SpikeArray_input_layer_1" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/31/SpikeArray_input_layer_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../input_layer_1/31/SpikeArray_input_layer_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_7" presynapticPopulation="input_layer_2" postsynapticPopulation="mushroom" synapse="syn_7">
             <connection id="7" preCellId="../input_layer_2/0/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
@@ -979,6 +1459,54 @@
             <connection id="7" preCellId="../input_layer_2/19/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
             <connection id="7" preCellId="../input_layer_2/19/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
             <connection id="7" preCellId="../input_layer_2/19/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/20/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/20/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/20/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/20/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/21/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/21/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/21/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/21/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/22/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/22/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/22/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/22/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/23/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/23/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/23/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/23/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/24/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/24/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/24/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/24/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/25/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/25/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/25/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/25/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/26/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/26/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/26/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/26/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/27/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/27/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/27/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/27/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/28/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/28/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/28/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/28/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/29/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/29/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/29/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/29/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/30/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/30/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/30/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/30/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/31/SpikeArray_input_layer_2" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/31/SpikeArray_input_layer_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/31/SpikeArray_input_layer_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="7" preCellId="../input_layer_2/31/SpikeArray_input_layer_2" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_8" presynapticPopulation="input_layer_3" postsynapticPopulation="mushroom" synapse="syn_8">
             <connection id="8" preCellId="../input_layer_3/0/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
@@ -1061,6 +1589,54 @@
             <connection id="8" preCellId="../input_layer_3/19/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
             <connection id="8" preCellId="../input_layer_3/19/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
             <connection id="8" preCellId="../input_layer_3/19/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/20/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/20/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/20/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/20/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/21/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/21/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/21/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/21/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/22/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/22/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/22/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/22/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/23/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/23/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/23/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/23/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/24/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/24/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/24/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/24/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/25/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/25/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/25/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/25/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/26/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/26/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/26/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/26/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/27/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/27/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/27/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/27/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/28/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/28/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/28/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/28/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/29/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/29/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/29/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/29/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/30/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/30/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/30/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/30/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/31/SpikeArray_input_layer_3" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/31/SpikeArray_input_layer_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/31/SpikeArray_input_layer_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="8" preCellId="../input_layer_3/31/SpikeArray_input_layer_3" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
         </projection>
     </network>
 </neuroml>
