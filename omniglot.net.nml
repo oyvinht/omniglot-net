@@ -1,4 +1,4 @@
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="omniglot">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="PyNNGeNNNeuroML">
     <spikeArray id="SpikeArray_input_layer_0"/>
     <spikeArray id="SpikeArray_input_layer_1"/>
     <spikeArray id="SpikeArray_input_layer_2"/>
@@ -7,15 +7,15 @@
     <IF_curr_exp id="IF_curr_exp_inh_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_output" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_inh_output" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
-    <expCurrSynapse id="syn_0" tau_syn="1."/>
-    <expCurrSynapse id="syn_1" tau_syn="1."/>
-    <expCurrSynapse id="syn_2" tau_syn="1."/>
-    <expCurrSynapse id="syn_3" tau_syn="1."/>
-    <expCurrSynapse id="syn_4" tau_syn="1."/>
-    <expCurrSynapse id="syn_5" tau_syn="1."/>
-    <expCurrSynapse id="syn_6" tau_syn="1."/>
-    <expCurrSynapse id="syn_7" tau_syn="1."/>
-    <expCurrSynapse id="syn_8" tau_syn="1."/>
+    <expCurrSynapse id="syn_0" tau_syn="5."/>
+    <expCurrSynapse id="syn_1" tau_syn="5."/>
+    <expCurrSynapse id="syn_2" tau_syn="5."/>
+    <expCurrSynapse id="syn_3" tau_syn="5."/>
+    <expCurrSynapse id="syn_4" tau_syn="5."/>
+    <expCurrSynapse id="syn_5" tau_syn="5."/>
+    <expCurrSynapse id="syn_6" tau_syn="5."/>
+    <expCurrSynapse id="syn_7" tau_syn="5."/>
+    <expCurrSynapse id="syn_8" tau_syn="5."/>
     <network id="network">
         <population id="input_layer_0" component="SpikeArray_input_layer_0" size="10" type="populationList">
             <instance id="0">
