@@ -1,6 +1,17 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="MiniSpikeManual">
 
-  <spikeArray id="TheSpikeArray"/>
+  <spikeArray id="TheSpikeArray">
+    <spike id="0" time="0.001ms"/>
+    <spike id="1" time="0.002ms"/>
+    <spike id="2" time="0.003ms"/>
+    <spike id="3" time="0.004ms"/>
+    <spike id="4" time="0.005ms"/>
+    <spike id="5" time="0.006ms"/>
+    <spike id="6" time="0.007ms"/>
+    <spike id="7" time="0.008ms"/>
+    <spike id="8" time="0.009ms"/>
+    <spike id="9" time="0.015ms"/>
+  </spikeArray>
   <IF_curr_exp id="The_IF_curr_exp" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
   <expCurrSynapse id="syn_0" tau_syn="5."/>
   <network id="network">
