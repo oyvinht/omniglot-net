@@ -1,15 +1,15 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="MiniSpikeManual">
 
   <spikeArray id="TheSpikeArray">
-    <spike id="0" time="0.01ms"/>
-    <spike id="1" time="0.02ms"/>
-    <spike id="2" time="0.03ms"/>
-    <spike id="3" time="0.04ms"/>
-    <spike id="4" time="0.05ms"/>
-    <spike id="5" time="0.06ms"/>
-    <spike id="6" time="0.07ms"/>
-    <spike id="7" time="0.08ms"/>
-    <spike id="8" time="0.09ms"/>
+    <spike id="0" time="0.015ms"/>
+    <spike id="1" time="0.020ms"/>
+    <spike id="2" time="0.025ms"/>
+    <spike id="3" time="0.030ms"/>
+    <spike id="4" time="0.035ms"/>
+    <spike id="5" time="0.070ms"/>
+    <spike id="6" time="0.080ms"/>
+    <spike id="7" time="0.090ms"/>
+    <spike id="8" time="0.100ms"/>
     <spike id="9" time="0.15ms"/>
   </spikeArray>
   <IF_curr_exp id="The_IF_curr_exp" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
@@ -22,7 +22,7 @@
     </population>
     <population id="out" component="The_IF_curr_exp" size="1" type="populationList">
       <instance id="0">
-	<location x="0." y="0." z="10."/>
+	<location x="0." y="4." z="0."/>
       </instance>
     </population>
     <projection id="in_to_out"
