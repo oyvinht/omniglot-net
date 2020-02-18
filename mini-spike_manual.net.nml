@@ -1,16 +1,16 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="MiniSpikeManual">
 
   <spikeArray id="TheSpikeArray">
-    <spike id="0" time="0.015ms"/>
-    <spike id="1" time="0.020ms"/>
-    <spike id="2" time="0.025ms"/>
-    <spike id="3" time="0.030ms"/>
-    <spike id="4" time="0.035ms"/>
-    <spike id="5" time="0.170ms"/>
-    <spike id="6" time="0.180ms"/>
-    <spike id="7" time="0.190ms"/>
-    <spike id="8" time="0.200ms"/>
-    <spike id="9" time="0.250ms"/>
+    <spike id="0" time="15ms"/>
+    <spike id="1" time="20ms"/>
+    <spike id="2" time="25ms"/>
+    <spike id="3" time="30ms"/>
+    <spike id="4" time="35ms"/>
+    <spike id="5" time="170ms"/>
+    <spike id="6" time="180ms"/>
+    <spike id="7" time="190ms"/>
+    <spike id="8" time="200ms"/>
+    <spike id="9" time="250ms"/>
   </spikeArray>
   <IF_curr_exp id="The_IF_curr_exp" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
   <expCurrSynapse id="syn_0" tau_syn="20."/>
