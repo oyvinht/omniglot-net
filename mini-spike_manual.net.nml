@@ -24,6 +24,9 @@
       <instance id="0">
 	<location x="4." y="0." z="0."/>
       </instance>
+      <instance id="1"> <!-- Not connected -->
+	<location x="4." y="2." z="0."/>
+      </instance>
     </population>
     <projection id="in_to_out"
 		presynapticPopulation="spikesources"
