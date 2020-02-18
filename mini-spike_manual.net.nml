@@ -13,7 +13,7 @@
     <spike id="9" time="250ms"/>
   </spikeArray>
   <IF_curr_exp id="The_IF_curr_exp" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
-  <expCurrSynapse id="syn_0" tau_syn="20."/>
+  <expCurrSynapse id="syn_0" tau_syn="-20."/>
   <network id="network">
     <population id="spikesources" component="TheSpikeArray" size="1" type="populationList">
       <instance id="0">
