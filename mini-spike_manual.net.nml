@@ -15,8 +15,8 @@
       </instance>
     </population>
     <projection id="in_to_out"
-		presynapticPopulation="TheSpikeArray"
-		postsynapticPopulation="The_IF_curr_exp"
+		presynapticPopulation="spikesources"
+		postsynapticPopulation="out"
 		synapse="syn_0">
       <connection id="0"
 		  preCellId="../spikesources/0/TheSpikeArray"
