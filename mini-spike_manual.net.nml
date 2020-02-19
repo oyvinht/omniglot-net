@@ -1,11 +1,16 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="MiniSpikeManual">
 
+<<<<<<< HEAD
   <spikeArray id="TheSpikeArray">
+=======
+  <spikeArray id="TheManySpikeArray">
+>>>>>>> 60ba59f6967c53086b97dd7d1b893d835eee407b
     <spike id="0" time="15ms"/>
     <spike id="1" time="20ms"/>
     <spike id="2" time="25ms"/>
     <spike id="3" time="30ms"/>
     <spike id="4" time="35ms"/>
+<<<<<<< HEAD
     <spike id="5" time="170ms"/>
     <spike id="6" time="180ms"/>
     <spike id="7" time="190ms"/>
@@ -36,6 +41,72 @@
 		  preCellId="../spikesources/0/TheSpikeArray"
 		  postCellId="../out/0/The_IF_curr_exp"/>
     </projection>
+=======
+    <spike id="5" time="40ms"/>
+    <spike id="6" time="45ms"/>
+    <spike id="7" time="50ms"/>
+    <spike id="8" time="55ms"/>
+    <spike id="9" time="60ms"/>
+    <spike id="10" time="170ms"/>
+    <spike id="11" time="180ms"/>
+    <spike id="12" time="190ms"/>
+    <spike id="13" time="200ms"/>
+    <spike id="14" time="250ms"/>
+  </spikeArray>
+  
+  <spikeArray id="TheSingleSpikeArray">
+    <spike id="0" time="250ms"/>
+  </spikeArray>
+  
+  <IF_curr_exp id="The_IF_curr_exp" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
+  
+  <expCurrSynapse id="syn_0" tau_syn="-8."/>
+  
+  <network id="network">
+
+    <population id="singlespikesources" component="TheSingleSpikeArray" size="1" type="populationList">
+      <instance id="0">
+	<location x="0." y="0." z="0."/>
+      </instance>
+    </population>    
+
+    <population id="manyspikesources" component="TheManySpikeArray" size="1" type="populationList">
+      <instance id="0">
+	<location x="0." y="3." z="0."/>
+      </instance>
+    </population>
+    
+    <population id="singleout" component="The_IF_curr_exp" size="1" type="populationList">
+      <instance id="0">
+	<location x="5." y="0." z="0."/>
+      </instance>
+    </population>
+
+    <population id="manyout" component="The_IF_curr_exp" size="1" type="populationList">
+      <instance id="0">
+	<location x="5." y="3." z="0."/>
+      </instance>
+    </population>
+    
+    <projection id="singlein_to_singleout"
+		presynapticPopulation="singlespikesources"
+		postsynapticPopulation="singleout"
+		synapse="syn_0">
+      <connection id="0"
+		  preCellId="../singlespikesources/0/TheSingleSpikeArray"
+		  postCellId="../singleout/0/The_IF_curr_exp"/>
+    </projection>
+
+    <projection id="manyin_to_manyout"
+		presynapticPopulation="manyspikesources"
+		postsynapticPopulation="manyout"
+		synapse="syn_0">
+      <connection id="0"
+		  preCellId="../manyspikesources/0/TheManySpikeArray"
+		  postCellId="../manyout/0/The_IF_curr_exp"/>
+    </projection>
+    
+>>>>>>> 60ba59f6967c53086b97dd7d1b893d835eee407b
   </network>
   
   
