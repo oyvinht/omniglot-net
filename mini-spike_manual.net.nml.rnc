@@ -1,0 +1,1785 @@
+default namespace = "http://www.neuroml.org/schema/neuroml2"
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a0 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a1 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a10 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a11 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a12 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a13 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a14 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a15 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a16 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a17 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a2 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a3 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a4 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a5 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a6 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a7 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a8 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a9 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace jxb = "http://java.sun.com/xml/ns/jaxb"
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Core elements
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+## 
+##             An id attribute for elements which need to be identified uniquely (normally just within their parent element).
+##         
+NmlId = xsd:string { pattern = "[a-zA-Z_][a-zA-Z0-9_]*" }
+
+## 
+##             A value for a physical quantity in NeuroML 2, e.g. 20, -60.0mV or 5nA
+##         
+Nml2Quantity =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*([_a-zA-Z0-9])*"
+  }
+Nml2Quantity_none =
+  xsd:string { pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?" }
+Nml2Quantity_voltage =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(V|mV)"
+  }
+Nml2Quantity_length =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(m|cm|um)"
+  }
+Nml2Quantity_resistance =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(ohm|kohm|Mohm)"
+  }
+Nml2Quantity_conductance =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(S|mS|uS|nS|pS)"
+  }
+Nml2Quantity_conductanceDensity =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(S_per_m2|mS_per_cm2|S_per_cm2)"
+  }
+Nml2Quantity_permeability =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(m_per_s|                        um_per_ms|cm_per_s|cm_per_ms)"
+  }
+Nml2Quantity_time =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(s|ms)"
+  }
+Nml2Quantity_pertime =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(per_s|per_ms|Hz)"
+  }
+Nml2Quantity_capacitance =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(F|uF|nF|pF)"
+  }
+Nml2Quantity_specificCapacitance =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(F_per_m2|uF_per_cm2)"
+  }
+Nml2Quantity_concentration =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(mol_per_m3|mol_per_cm3|M|mM)"
+  }
+Nml2Quantity_current =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(A|uA|nA|pA)"
+  }
+Nml2Quantity_currentDensity =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(A_per_m2|uA_per_cm2|mA_per_cm2)"
+  }
+Nml2Quantity_temperature =
+  xsd:string {
+    pattern = "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(degC)"
+  }
+Nml2Quantity_rhoFactor =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(mol_per_m_per_A_per_s|mol_per_cm_per_uA_per_ms)"
+  }
+Nml2Quantity_conductancePerVoltage =
+  xsd:string {
+    pattern =
+      "-?([0-9]*(\.[0-9]+)?)([eE]-?[0-9]+)?[\s]*(S_per_V|nS_per_mV)"
+  }
+
+## 
+##             An id string for pointing to an entry in an annotation element related to a MIRIAM resource. Based on metaid of SBML
+##         
+MetaId = xsd:string { pattern = "[a-zA-Z0-9_]*" }
+
+## 
+##             An id string for pointing to an entry in the NeuroLex ontology. Use of this attribute is a shorthand for a full
+##             RDF based reference to the MIRIAM Resource urn:miriam:neurolex, with an bqbiol:is qualifier
+##             
+##         
+NeuroLexId = xsd:string { pattern = "[a-zA-Z0-9_:]*" }
+[
+  a:documentation [
+    "\x{a}" ~
+    "            An attribute useful as id of segments, connections, etc: integer >=0 only!\x{a}" ~
+    "            \x{a}" ~
+    "                "
+    #  This tells JAXB to use an int for this attribute instead of BigInteger
+    
+    "\x{a}" ~
+    "               "
+    jxb:javaType [
+      name = "int"
+      parseMethod = "javax.xml.bind.DatatypeConverter.parseInt"
+      printMethod = "javax.xml.bind.DatatypeConverter.printInt"
+    ]
+    "\x{a}" ~
+    "            \x{a}" ~
+    "        "
+  ]
+]
+NonNegativeInteger = xsd:nonNegativeInteger
+[
+  a:documentation [
+    "\x{a}" ~
+    "            Integer >=1 only!\x{a}" ~
+    "            \x{a}" ~
+    "                "
+    #  This tells JAXB to use an int for this attribute instead of BigInteger
+    
+    "\x{a}" ~
+    "               "
+    jxb:javaType [
+      name = "int"
+      parseMethod = "javax.xml.bind.DatatypeConverter.parseInt"
+      printMethod = "javax.xml.bind.DatatypeConverter.printInt"
+    ]
+    "\x{a}" ~
+    "            \x{a}" ~
+    "        "
+  ]
+]
+PositiveInteger = xsd:positiveInteger
+
+## 
+##             Double >0 only
+##         
+DoubleGreaterThanZero = xsd:double { minExclusive = "0" }
+
+## 
+##             Value which is either 0 or 1
+##         
+ZeroOrOne = "0" | "1"
+# NOTE: Base and Standalone definitions moved to end of file, as some XML language binding
+# generators, e.g. generateDS.py, require superclasses to be defined after the subclasses...
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Metadata elements
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+## 
+##             Textual human readable notes related to the element in question. It's useful to put these into
+##          the NeuroML files instead of XML comments, as the notes can be extracted and repeated in the files to which the NeuroML is mapped.
+##             
+##         
+Notes = xsd:string
+
+## 
+##             Generic property with a tag and value
+##         
+Property =
+  attribute tag { xsd:string },
+  attribute value { xsd:string }
+
+## 
+##             Placeholder for MIRIAM related metadata, among others.
+##         
+Annotation =
+  (element * { text }*)
+  # Further elements will be specified!!
+  
+
+## 
+##             Contains an extension to NeuroML by creating custom LEMS ComponentType.
+##         
+ComponentType =
+  element Property { LEMS_Property }*,
+  element Parameter { Parameter }*,
+  element Constant { Constant }*,
+  element Exposure { Exposure }*,
+  element Requirement { Requirement }*,
+  element InstanceRequirement { InstanceRequirement }*,
+  element Dynamics { Dynamics }*,
+  attribute name { xsd:string },
+  attribute extends { xsd:string }?,
+  attribute description { xsd:string }?
+
+## 
+##             LEMS ComponentType for Constant.
+##         
+Constant =
+  attribute name { xsd:string },
+  attribute dimension { xsd:string },
+  attribute value { Nml2Quantity },
+  attribute description { xsd:string }?
+
+## 
+##             LEMS Exposure (ComponentType property) 
+##         
+Exposure =
+  attribute name { xsd:string },
+  attribute dimension { xsd:string },
+  attribute description { xsd:string }?
+# for Parameter etc.
+NamedDimensionalType =
+  attribute name { xsd:string },
+  # See https://github.com/NeuroML/jNeuroML/issues/56, suggesting the following change:
+  attribute dimension { xsd:string },
+  attribute description { xsd:string }?
+NamedDimensionalVariable =
+  attribute name { xsd:string },
+  attribute dimension { xsd:string },
+  attribute description { xsd:string }?,
+  attribute exposure { xsd:string }?
+Parameter =
+  # For language binding generators, so there will be a class of this name...
+  NamedDimensionalType
+LEMS_Property =
+  NamedDimensionalType,
+  attribute defaultValue { xsd:double }?
+Requirement =
+  # For language binding generators, so there will be a class of this name...
+  NamedDimensionalType
+InstanceRequirement =
+  # For language binding generators, so there will be a class of this name...
+  attribute name { xsd:string },
+  attribute type { xsd:string }
+
+## 
+##             LEMS ComponentType for Dynamics
+##         
+Dynamics =
+  element StateVariable { StateVariable }*,
+  element DerivedVariable { DerivedVariable }*,
+  element ConditionalDerivedVariable { ConditionalDerivedVariable }*,
+  element TimeDerivative { TimeDerivative }*
+
+## 
+##			LEMS ComponentType for DerivedVariable
+##		
+DerivedVariable =
+  NamedDimensionalVariable,
+  attribute value { xsd:string }?,
+  attribute select { xsd:string }?
+StateVariable = NamedDimensionalVariable
+ConditionalDerivedVariable =
+  NamedDimensionalVariable
+  >> a:documentation [
+       "\x{a}" ~
+       "					LEMS ComponentType for ConditionalDerivedVariable\x{a}" ~
+       "				"
+     ],
+  element Case { Case }+
+Case =
+  attribute condition { xsd:string }?,
+  attribute value { xsd:string }
+TimeDerivative =
+  attribute variable { xsd:string },
+  attribute value { xsd:string }
+
+## 
+##             Float value restricted to between 1 and 0
+##         
+ZeroToOne = xsd:float { minInclusive = "0" maxInclusive = "1" }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Main NeuroML element
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+start |= neuroml
+neuroml =
+  element neuroml {
+    NeuroMLDocument
+    >> a:documentation [
+         "\x{a}" ~
+         "            The root NeuroML element.\x{a}" ~
+         "        "
+       ]
+  }
+NeuroMLDocument =
+  # Making the complexType definition of the root element lowercase, not to confuse language binding generators...
+  Standalone,
+  element include { IncludeType }*,
+  element extracellularProperties { ExtracellularProperties }*,
+  element intracellularProperties { IntracellularProperties }*,
+  element morphology { Morphology }*,
+  # Note: requires type = ionChannelHH
+  element ionChannel { IonChannel }*,
+  # Note ionChannel and _ionChannelHH are currently functionally identical. This is needed
+  # since many existing examples use ionChannel, some use ionChannelHH. NeuroML v2beta4 should
+  # remove one of these
+  element ionChannelHH { IonChannelHH }*,
+  element ionChannelVShift { IonChannelVShift }*,
+  element ionChannelKS { IonChannelKS }*,
+  ConcentrationModelTypes,
+  SynapseTypes,
+  element biophysicalProperties { BiophysicalProperties }*,
+  CellTypes,
+  InputTypes,
+  PyNNCellTypes,
+  PyNNSynapseTypes,
+  PyNNInputTypes,
+  element network { Network }*,
+  element ComponentType { ComponentType }*
+# A small subset of XLInclude from: http://www.w3.org/2001/XInclude.xsd
+# Will be sufficient for now...
+IncludeType = attribute href { xsd:anyURI }
+
+## 
+##             Various types of cells which are defined in NeuroML 2. This list will be expanded...
+##         
+CellTypes =
+  element cell { Cell }*,
+  element cell2CaPools { Cell2CaPools }*,
+  element baseCell { BaseCell }*,
+  element iafTauCell { IafTauCell }*,
+  element iafTauRefCell { IafTauRefCell }*,
+  element iafCell { IafCell }*,
+  element iafRefCell { IafRefCell }*,
+  element izhikevichCell { IzhikevichCell }*,
+  element izhikevich2007Cell { Izhikevich2007Cell }*,
+  element adExIaFCell { AdExIaFCell }*,
+  element fitzHughNagumoCell { FitzHughNagumoCell }*,
+  element fitzHughNagumo1969Cell { FitzHughNagumo1969Cell }*,
+  element pinskyRinzelCA3Cell { PinskyRinzelCA3Cell }*
+
+## 
+##             Various types of cells which are defined in NeuroML 2 based on PyNN standard cell models. 
+##         
+PyNNCellTypes =
+  element IF_curr_alpha { IF_curr_alpha }*,
+  element IF_curr_exp { IF_curr_exp }*,
+  element IF_cond_alpha { IF_cond_alpha }*,
+  element IF_cond_exp { IF_cond_exp }*,
+  element EIF_cond_exp_isfa_ista { EIF_cond_exp_isfa_ista }*,
+  element EIF_cond_alpha_isfa_ista { EIF_cond_alpha_isfa_ista }*,
+  element HH_cond_exp { HH_cond_exp }*
+
+## 
+##             Various types of synapse which are defined in NeuroML 2. This list will be expanded...
+##         
+SynapseTypes =
+  element alphaCurrentSynapse { AlphaCurrentSynapse }*,
+  element alphaSynapse { AlphaSynapse }*,
+  element expOneSynapse { ExpOneSynapse }*,
+  element expTwoSynapse { ExpTwoSynapse }*,
+  element expThreeSynapse { ExpThreeSynapse }*,
+  element blockingPlasticSynapse { BlockingPlasticSynapse }*,
+  element doubleSynapse { DoubleSynapse }*,
+  element gapJunction { GapJunction }*,
+  element silentSynapse { SilentSynapse }*,
+  element linearGradedSynapse { LinearGradedSynapse }*,
+  element gradedSynapse { GradedSynapse }*
+
+## 
+##             Various types of synapse which are defined in NeuroML 2 based on PyNN standard cell/synapse models. 
+##         
+PyNNSynapseTypes =
+  element expCondSynapse { ExpCondSynapse }*,
+  element alphaCondSynapse { AlphaCondSynapse }*,
+  element expCurrSynapse { ExpCurrSynapse }*,
+  element alphaCurrSynapse { AlphaCurrSynapse }*
+
+## 
+##             Various types of inputs which are defined in NeuroML2. This list will be expanded...
+##         
+InputTypes =
+  element pulseGenerator { PulseGenerator }*,
+  element pulseGeneratorDL { PulseGeneratorDL }*,
+  element sineGenerator { SineGenerator }*,
+  element sineGeneratorDL { SineGeneratorDL }*,
+  element rampGenerator { RampGenerator }*,
+  element rampGeneratorDL { RampGeneratorDL }*,
+  element compoundInput { CompoundInput }*,
+  element compoundInputDL { CompoundInputDL }*,
+  element voltageClamp { VoltageClamp }*,
+  element voltageClampTriple { VoltageClampTriple }*,
+  element spikeArray { SpikeArray }*,
+  element timedSynapticInput { TimedSynapticInput }*,
+  element spikeGenerator { SpikeGenerator }*,
+  element spikeGeneratorRandom { SpikeGeneratorRandom }*,
+  element spikeGeneratorPoisson { SpikeGeneratorPoisson }*,
+  element spikeGeneratorRefPoisson { SpikeGeneratorRefPoisson }*,
+  element poissonFiringSynapse { PoissonFiringSynapse }*,
+  element transientPoissonFiringSynapse {
+    TransientPoissonFiringSynapse
+  }*
+
+## 
+##             Various types of input which are defined in NeuroML 2 based on PyNN standard cell/synapse models. 
+##         
+PyNNInputTypes = element SpikeSourcePoisson { SpikeSourcePoisson }*
+
+## 
+##             Various types of concentration model which are defined in NeuroML 2. This list will be expanded...
+##         
+ConcentrationModelTypes =
+  element decayingPoolConcentrationModel {
+    DecayingPoolConcentrationModel
+  }*,
+  element fixedFactorConcentrationModel {
+    FixedFactorConcentrationModel
+  }*
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# IonChannel element
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IonChannelScalable =
+  Standalone,
+  element q10ConductanceScaling { Q10ConductanceScaling }*
+
+## 
+##             Kinetic scheme based ion channel.
+##         
+IonChannelKS =
+  Standalone,
+  element gateKS { GateKS }*,
+  attribute species { NmlId }?,
+  attribute conductance { Nml2Quantity_conductance }?
+
+## 
+##             Note ionChannel and ionChannelHH are currently functionally identical. This is needed since many existing examples use ionChannel, some use ionChannelHH.
+##                 NeuroML v2beta4 should remove one of these, probably ionChannelHH.
+##         
+IonChannel =
+  IonChannelScalable,
+  (element gate { GateHHUndetermined }*
+   | element gateHHrates { GateHHRates }*
+   | element gateHHratesTau { GateHHRatesTau }*
+   | element gateHHtauInf { GateHHTauInf }*
+   | element gateHHratesInf { GateHHRatesInf }*
+   | element gateHHratesTauInf { GateHHRatesTauInf }*
+   | element gateHHInstantaneous { GateHHInstantaneous }*
+   | element gateFractional { GateFractional }*),
+  attribute species { NmlId }?,
+  attribute type { channelTypes }?,
+  attribute conductance { Nml2Quantity_conductance }?
+
+## 
+##             Note ionChannel and ionChannelHH are currently functionally identical. This is needed since many existing examples use ionChannel, some use ionChannelHH.
+##                 NeuroML v2beta4 should remove one of these, probably ionChannelHH.
+##         
+IonChannelHH = IonChannel
+
+## 
+##             Same as ionChannel, but with a vShift parameter to change voltage activation of gates. The exact usage of vShift in expressions for rates is determined by the individual gates.
+##         
+IonChannelVShift =
+  IonChannel,
+  attribute vShift { Nml2Quantity_voltage }
+channelTypes =
+  "ionChannelPassive"
+  | [
+      # <xs:enumeration value="ionChannelKS"/> use an explicit <ionChannelKS ... > element, not <ionChannel type="ionChannelKS" ..>
+      
+    ]
+    "ionChannelHH"
+Q10ConductanceScaling =
+  attribute q10Factor { Nml2Quantity_none },
+  attribute experimentalTemp { Nml2Quantity_temperature }
+gateTypes =
+  "gateHHrates"
+  | "gateHHratesTau"
+  | "gateHHtauInf"
+  | "gateHHratesInf"
+  | "gateHHratesTauInf"
+  | "gateHHInstantaneous"
+  | "gateKS"
+  | "gateFractional"
+ClosedState =
+  Base
+  #  Only has id...
+  
+OpenState =
+  Base
+  #  Only has id...
+  
+ForwardTransition =
+  Base,
+  element * { text }*,
+  # Further elements will be specified!!
+  attribute from { NmlId },
+  attribute to { NmlId }
+ReverseTransition =
+  Base,
+  element * { text }*,
+  # Further elements will be specified!!
+  attribute from { NmlId },
+  attribute to { NmlId }
+ForwardReverseTransition =
+  element forwardTransition { ForwardTransition },
+  element reverseTransition { ReverseTransition }
+TauInfTransition =
+  Base,
+  (element steadyState { HHVariable }?
+   & element timeCourse { HHTime }?),
+  attribute from { NmlId },
+  attribute to { NmlId }
+GateKS =
+  Base,
+  element notes { Notes }?,
+  element q10Settings { Q10Settings }?,
+  element closedState { ClosedState }+,
+  element openState { OpenState }+,
+  (ForwardReverseTransition
+   | element tauInfTransition { TauInfTransition })+,
+  attribute instances { PositiveInteger }
+
+## 
+##             Note all sub elements for gateHHrates, gateHHratesTau, gateFractional etc. allowed here. Which are valid should be constrained by what type is set
+##         
+GateHHUndetermined =
+  Base,
+  element notes { Notes }?,
+  element q10Settings { Q10Settings }?,
+  element forwardRate { HHRate }?,
+  element reverseRate { HHRate }?,
+  element timeCourse { HHTime }?,
+  element steadyState { HHVariable }?,
+  element subGate { GateFractionalSubgate }*,
+  attribute instances { PositiveInteger },
+  attribute type { gateTypes }
+  # Required, as it must specify type="gateHHratesTau" etc.
+  
+GateHHRates =
+  Base,
+  ((element notes { Notes }?)?
+   & (element q10Settings { Q10Settings }?)?
+   & element forwardRate { HHRate }?
+   & element reverseRate { HHRate }?),
+  attribute instances { PositiveInteger }
+  # <xs:attribute name="type" type="gateTypes" use="optional"/> No longer allowed as it could conflict with the element definition
+  
+GateHHTauInf =
+  Base,
+  ((element notes { Notes }?)?
+   & (element q10Settings { Q10Settings }?)?
+   & element timeCourse { HHTime }?
+   & element steadyState { HHVariable }?),
+  attribute instances { PositiveInteger }
+  # <xs:attribute name="type" type="gateTypes" use="optional"/> No longer allowed as it could conflict with the element definition
+  
+GateHHRatesTauInf =
+  Base,
+  ((element notes { Notes }?)?
+   & (element q10Settings { Q10Settings }?)?
+   & element forwardRate { HHRate }?
+   & element reverseRate { HHRate }?
+   & element timeCourse { HHTime }?
+   & element steadyState { HHVariable }?),
+  attribute instances { PositiveInteger }
+  # <xs:attribute name="type" type="gateTypes" use="optional"/> No longer allowed as it could conflict with the element definition
+  
+GateHHRatesTau =
+  Base,
+  ((element notes { Notes }?)?
+   & (element q10Settings { Q10Settings }?)?
+   & element forwardRate { HHRate }?
+   & element reverseRate { HHRate }?
+   & element timeCourse { HHTime }?),
+  attribute instances { PositiveInteger }
+  # <xs:attribute name="type" type="gateTypes" use="optional"/> No longer allowed as it could conflict with the element definition
+  
+GateHHRatesInf =
+  Base,
+  ((element notes { Notes }?)?
+   & (element q10Settings { Q10Settings }?)?
+   & element forwardRate { HHRate }?
+   & element reverseRate { HHRate }?
+   & element steadyState { HHVariable }?),
+  attribute instances { PositiveInteger }
+  # <xs:attribute name="type" type="gateTypes" use="optional"/> No longer allowed as it could conflict with the element definition
+  
+GateHHInstantaneous =
+  Base,
+  ((element notes { Notes }?)?
+   & element steadyState { HHVariable }?),
+  attribute instances { PositiveInteger }
+  # <xs:attribute name="type" type="gateTypes" use="optional"/> No longer allowed as it could conflict with the element definition
+  
+GateFractional =
+  Base,
+  element notes { Notes }?,
+  element q10Settings { Q10Settings }?,
+  element subGate { GateFractionalSubgate }+,
+  attribute instances { PositiveInteger }
+GateFractionalSubgate =
+  Base,
+  ((element notes { Notes }?)?
+   & (element q10Settings { Q10Settings }?)?
+   & element steadyState { HHVariable }?
+   & element timeCourse { HHTime }?),
+  attribute fractionalConductance { Nml2Quantity_none }
+Q10Settings =
+  attribute type { NmlId },
+  attribute fixedQ10 { Nml2Quantity_none }?,
+  #  TODO: make this and follwing 2 attrs either/or
+  attribute q10Factor { Nml2Quantity_none }?,
+  attribute experimentalTemp { Nml2Quantity_temperature }?
+HHRate =
+  attribute type { NmlId },
+  attribute rate { Nml2Quantity_pertime }?,
+  attribute midpoint { Nml2Quantity_voltage }?,
+  attribute scale { Nml2Quantity_voltage }?
+HHVariable =
+  attribute type { NmlId },
+  attribute rate { xsd:float }?,
+  attribute midpoint { Nml2Quantity_voltage }?,
+  attribute scale { Nml2Quantity_voltage }?
+HHTime =
+  attribute type { NmlId },
+  attribute rate { Nml2Quantity_time }?,
+  attribute midpoint { Nml2Quantity_voltage }?,
+  attribute scale { Nml2Quantity_voltage }?,
+  (attribute tau { Nml2Quantity_time }?)
+  #  TODO: make this and prev 3 attrs either/or
+  
+# <xs:complexType name="FixedTimeCourse">
+#         <xs:attribute name="tau" type="Nml2Quantity_time" use="required"/>
+# </xs:complexType>
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Concentration Model types
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DecayingPoolConcentrationModel =
+  Standalone,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Should not be required, as it's present on the species element!\x{a}" ~
+         "                    "
+       ]
+  },
+  attribute restingConc { Nml2Quantity_concentration },
+  attribute decayConstant { Nml2Quantity_time },
+  attribute shellThickness { Nml2Quantity_length }
+FixedFactorConcentrationModel =
+  Standalone,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Should not be required, as it's present on the species element!\x{a}" ~
+         "                    "
+       ]
+  },
+  attribute restingConc { Nml2Quantity_concentration },
+  attribute decayConstant { Nml2Quantity_time },
+  attribute rho { Nml2Quantity_rhoFactor }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Synapse types
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BaseSynapse = Standalone
+BaseVoltageDepSynapse = BaseSynapse
+BaseCurrentBasedSynapse = BaseSynapse
+BaseConductanceBasedSynapse =
+  BaseVoltageDepSynapse,
+  attribute gbase { Nml2Quantity_conductance },
+  attribute erev { Nml2Quantity_voltage }
+BaseConductanceBasedSynapseTwo =
+  BaseVoltageDepSynapse,
+  attribute gbase1 { Nml2Quantity_conductance },
+  attribute gbase2 { Nml2Quantity_conductance },
+  attribute erev { Nml2Quantity_voltage }
+
+## 
+##                 Gap junction/single electrical connection
+##             
+GapJunction =
+  BaseSynapse,
+  attribute conductance { Nml2Quantity_conductance }
+
+## 
+##                 Dummy synapse which emits no current. Used as presynaptic endpoint for analog synaptic connection (continuousConnection).
+##             
+SilentSynapse = BaseSynapse
+
+## 
+##                 Behaves just like a one way gap junction.
+##             
+LinearGradedSynapse =
+  BaseSynapse,
+  attribute conductance { Nml2Quantity_conductance }
+
+## 
+##                 Based on synapse in Methods of http://www.nature.com/neuro/journal/v7/n12/abs/nn1352.html.
+##             
+GradedSynapse =
+  BaseSynapse,
+  attribute conductance { Nml2Quantity_conductance },
+  attribute delta { Nml2Quantity_voltage },
+  attribute Vth { Nml2Quantity_voltage },
+  attribute k { Nml2Quantity_pertime },
+  attribute erev { Nml2Quantity_voltage }
+AlphaCurrentSynapse =
+  BaseCurrentBasedSynapse,
+  attribute tau { Nml2Quantity_time },
+  attribute ibase { Nml2Quantity_current }
+AlphaSynapse =
+  BaseConductanceBasedSynapse,
+  attribute tau { Nml2Quantity_time }
+ExpOneSynapse =
+  BaseConductanceBasedSynapse,
+  attribute tauDecay { Nml2Quantity_time }
+ExpTwoSynapse =
+  BaseConductanceBasedSynapse,
+  attribute tauDecay { Nml2Quantity_time },
+  attribute tauRise { Nml2Quantity_time }
+ExpThreeSynapse =
+  BaseConductanceBasedSynapseTwo,
+  attribute tauDecay1 { Nml2Quantity_time },
+  attribute tauDecay2 { Nml2Quantity_time },
+  attribute tauRise { Nml2Quantity_time }
+DoubleSynapse =
+  BaseVoltageDepSynapse,
+  attribute synapse1 { NmlId },
+  attribute synapse2 { NmlId },
+  attribute synapse1Path { xsd:string },
+  attribute synapse2Path { xsd:string }
+BlockingPlasticSynapse =
+  ExpTwoSynapse,
+  element plasticityMechanism { PlasticityMechanism }?,
+  element blockMechanism { BlockMechanism }?
+BlockTypes = "voltageConcDepBlockMechanism"
+BlockMechanism =
+  attribute type { BlockTypes },
+  attribute species { NmlId },
+  attribute blockConcentration { Nml2Quantity_concentration },
+  attribute scalingConc { Nml2Quantity_concentration },
+  attribute scalingVolt { Nml2Quantity_voltage }
+PlasticityTypes =
+  "tsodyksMarkramDepMechanism" | "tsodyksMarkramDepFacMechanism"
+PlasticityMechanism =
+  attribute type { PlasticityTypes },
+  attribute initReleaseProb { ZeroToOne },
+  attribute tauRec { Nml2Quantity_time },
+  attribute tauFac { Nml2Quantity_time }?
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Cell element
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BaseCell = Standalone
+IafTauCell =
+  BaseCell,
+  attribute leakReversal { Nml2Quantity_voltage },
+  attribute thresh { Nml2Quantity_voltage },
+  attribute reset { Nml2Quantity_voltage },
+  attribute tau { Nml2Quantity_time }
+IafTauRefCell =
+  IafTauCell,
+  attribute refract { Nml2Quantity_time }
+IafCell =
+  BaseCell,
+  attribute leakReversal { Nml2Quantity_voltage },
+  attribute thresh { Nml2Quantity_voltage },
+  attribute reset { Nml2Quantity_voltage },
+  attribute C { Nml2Quantity_capacitance },
+  attribute leakConductance { Nml2Quantity_conductance }
+IafRefCell =
+  IafCell,
+  attribute refract { Nml2Quantity_time }
+IzhikevichCell =
+  BaseCell,
+  attribute v0 { Nml2Quantity_voltage },
+  attribute thresh { Nml2Quantity_voltage },
+  attribute a { Nml2Quantity_none },
+  attribute b { Nml2Quantity_none },
+  attribute c { Nml2Quantity_none },
+  attribute d { Nml2Quantity_none }
+BaseCellMembPotCap =
+  BaseCell,
+  attribute C {
+    Nml2Quantity_capacitance
+    >> a:documentation [
+         "\x{a}" ~
+         "                        This is to prevent it conflicting with attribute c (lowercase) e.g. in izhikevichCell2007\x{a}" ~
+         "                        \x{a}" ~
+         "                            "
+         jxb:property [ name = "Cap" ]
+         "\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+Izhikevich2007Cell =
+  BaseCellMembPotCap,
+  attribute v0 { Nml2Quantity_voltage },
+  attribute k { Nml2Quantity_conductancePerVoltage },
+  attribute vr { Nml2Quantity_voltage },
+  attribute vt { Nml2Quantity_voltage },
+  attribute vpeak { Nml2Quantity_voltage },
+  attribute a { Nml2Quantity_pertime },
+  attribute b { Nml2Quantity_conductance },
+  attribute c { Nml2Quantity_voltage },
+  attribute d { Nml2Quantity_current }
+AdExIaFCell =
+  BaseCellMembPotCap,
+  attribute gL { Nml2Quantity_conductance },
+  attribute EL { Nml2Quantity_voltage },
+  attribute reset { Nml2Quantity_voltage },
+  attribute VT { Nml2Quantity_voltage },
+  attribute thresh { Nml2Quantity_voltage },
+  attribute delT { Nml2Quantity_voltage },
+  attribute tauw { Nml2Quantity_time },
+  attribute refract { Nml2Quantity_time },
+  attribute a { Nml2Quantity_conductance },
+  attribute b { Nml2Quantity_current }
+FitzHughNagumoCell =
+  BaseCell,
+  attribute I { Nml2Quantity_none }
+FitzHughNagumo1969Cell =
+  BaseCell,
+  attribute a { Nml2Quantity_none },
+  attribute b { Nml2Quantity_none },
+  attribute I { Nml2Quantity_none },
+  attribute phi { Nml2Quantity_none },
+  attribute V0 { Nml2Quantity_none },
+  attribute W0 { Nml2Quantity_none }
+PinskyRinzelCA3Cell =
+  BaseCell,
+  attribute iSoma { Nml2Quantity_currentDensity },
+  attribute iDend { Nml2Quantity_currentDensity },
+  attribute gc { Nml2Quantity_conductanceDensity },
+  attribute gLs { Nml2Quantity_conductanceDensity },
+  attribute gLd { Nml2Quantity_conductanceDensity },
+  attribute gNa { Nml2Quantity_conductanceDensity },
+  attribute gKdr { Nml2Quantity_conductanceDensity },
+  attribute gCa { Nml2Quantity_conductanceDensity },
+  attribute gKahp { Nml2Quantity_conductanceDensity },
+  attribute gKC { Nml2Quantity_conductanceDensity },
+  attribute gNmda { Nml2Quantity_conductanceDensity },
+  attribute gAmpa { Nml2Quantity_conductanceDensity },
+  attribute eNa { Nml2Quantity_voltage },
+  attribute eCa { Nml2Quantity_voltage },
+  attribute eK { Nml2Quantity_voltage },
+  attribute eL { Nml2Quantity_voltage },
+  attribute qd0 { Nml2Quantity_none },
+  attribute pp { Nml2Quantity_none },
+  attribute alphac { Nml2Quantity_none },
+  attribute betac { Nml2Quantity_none },
+  attribute cm { Nml2Quantity_specificCapacitance }
+Cell =
+  BaseCell,
+  element morphology { Morphology }?,
+  element biophysicalProperties { BiophysicalProperties }?,
+  attribute morphology {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Should only be used if morphology element is outside the cell.\x{a}" ~
+         "                                          This points to the id of the morphology\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }?,
+  attribute biophysicalProperties {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Should only be used if biophysicalProperties element is outside the cell.\x{a}" ~
+         "                                          This points to the id of the biophysicalProperties\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }?
+Cell2CaPools =
+  Cell,
+  element biophysicalProperties2CaPools {
+    BiophysicalProperties2CaPools
+  }?
+
+## 
+##             Standalone element which is usually inside a single cell, but could be outside and
+##                               referenced by id.
+##             
+##         
+Morphology =
+  Standalone,
+  element segment { Segment }+,
+  element segmentGroup { SegmentGroup }*
+Segment =
+  BaseNonNegativeIntegerId,
+  #  Don't want to allow string value as with NmlId, want just non negative integer
+  element parent { SegmentParent }?,
+  element proximal { Point3DWithDiam }?,
+  element distal { Point3DWithDiam },
+  attribute name { xsd:string }?
+SegmentParent =
+  attribute segment { NonNegativeInteger },
+  [ a0:defaultValue = "1" ] attribute fractionAlong { ZeroToOne }?
+
+## 
+##             A 3D point with diameter.
+##         
+Point3DWithDiam =
+  attribute x { xsd:double },
+  attribute y { xsd:double },
+  attribute z { xsd:double },
+  attribute diameter { DoubleGreaterThanZero }
+SegmentGroup =
+  Base,
+  element notes { Notes }?,
+  element property { Property }*,
+  element annotation { Annotation }?,
+  element member { Member }*,
+  element include { Include }*,
+  element path { Path }*,
+  element subTree { SubTree }*,
+  element inhomogeneousParameter { InhomogeneousParameter }*
+InhomogeneousParameter =
+  Base,
+  element proximal { ProximalDetails }?,
+  element distal { DistalDetails }?,
+  attribute variable { xsd:string },
+  attribute metric { Metric }
+
+## 
+##             Allowed metrics for InhomogeneousParam
+##         
+Metric = "Path Length from root"
+ProximalDetails = attribute translationStart { xsd:double }
+DistalDetails = attribute normalizationEnd { xsd:double }
+Member = attribute segment { NonNegativeInteger }
+Include = attribute segmentGroup { NmlId }
+Path =
+  element from { SegmentEndPoint }?,
+  element to { SegmentEndPoint }?
+SubTree =
+  element from { SegmentEndPoint }?
+  | element to { SegmentEndPoint }?
+SegmentEndPoint = attribute segment { NonNegativeInteger }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Biophysical properties
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+## 
+##             Standalone element which is usually inside a single cell, but could be outside and
+##                               referenced by id.
+##             
+##         
+BiophysicalProperties =
+  Standalone,
+  element membraneProperties { MembraneProperties },
+  element intracellularProperties { IntracellularProperties }?,
+  element extracellularProperties { ExtracellularProperties }?
+
+## 
+##             Standalone element which is usually inside a single cell, but could be outside and
+##                               referenced by id.
+##             
+##         
+BiophysicalProperties2CaPools =
+  Standalone,
+  element membraneProperties2CaPools { MembraneProperties2CaPools },
+  element intracellularProperties2CaPools {
+    IntracellularProperties2CaPools
+  }?,
+  element extracellularProperties { ExtracellularProperties }?
+MembraneProperties =
+  element channelPopulation { ChannelPopulation }*,
+  element channelDensity { ChannelDensity }*,
+  element channelDensityVShift { ChannelDensityVShift }*,
+  element channelDensityNernst { ChannelDensityNernst }*,
+  element channelDensityGHK { ChannelDensityGHK }*,
+  element channelDensityGHK2 { ChannelDensityGHK2 }*,
+  element channelDensityNonUniform { ChannelDensityNonUniform }*,
+  element channelDensityNonUniformNernst {
+    ChannelDensityNonUniformNernst
+  }*,
+  element channelDensityNonUniformGHK { ChannelDensityNonUniformGHK }*,
+  element spikeThresh { SpikeThresh }*,
+  element specificCapacitance { SpecificCapacitance }*,
+  (element initMembPotential { InitMembPotential }*)
+  #  Taking this out until confirmation it's needed
+  # <xs:element name="reversalPotential" type="ReversalPotential" minOccurs="0" maxOccurs="unbounded"/>
+  
+MembraneProperties2CaPools =
+  MembraneProperties,
+  # Only difference from channelDensityNernst, ion="ca2" should be used
+  element channelDensityNernstCa2 { ChannelDensityNernstCa2 }*
+
+## 
+##             Using a thin extension of ValueAcrossSegOrSegGroup to facilitate library generation (e.g. libNeuroML)
+##         
+SpikeThresh = ValueAcrossSegOrSegGroup
+
+## 
+##             Using a thin extension of ValueAcrossSegOrSegGroup to facilitate library generation (e.g. libNeuroML)
+##         
+SpecificCapacitance = ValueAcrossSegOrSegGroup
+
+## 
+##             Using a thin extension of ValueAcrossSegOrSegGroup to facilitate library generation (e.g. libNeuroML)
+##         
+InitMembPotential = ValueAcrossSegOrSegGroup
+
+## 
+##             Using a thin extension of ValueAcrossSegOrSegGroup to facilitate library generation (e.g. libNeuroML)
+##         
+Resistivity = ValueAcrossSegOrSegGroup
+ChannelPopulation =
+  Base,
+  element variableParameter { VariableParameter }*,
+  attribute ionChannel { NmlId },
+  attribute number { NonNegativeInteger },
+  attribute erev { Nml2Quantity_voltage },
+  # Note: only one of the following should be used!!
+  [ a1:defaultValue = "all" ] attribute segmentGroup { NmlId }?,
+  attribute segment { NonNegativeInteger }?,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensityNonUniform =
+  Base,
+  element variableParameter { VariableParameter }*,
+  attribute ionChannel { NmlId },
+  attribute erev { Nml2Quantity_voltage },
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensityNonUniformNernst =
+  Base,
+  element variableParameter { VariableParameter }*,
+  attribute ionChannel { NmlId },
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensityNonUniformGHK =
+  Base,
+  element variableParameter { VariableParameter }*,
+  attribute ionChannel { NmlId },
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensity =
+  Base,
+  element variableParameter { VariableParameter }*,
+  attribute ionChannel { NmlId },
+  attribute condDensity { Nml2Quantity_conductanceDensity }?,
+  attribute erev { Nml2Quantity_voltage },
+  # Note: only one of the following should be used!!
+  [ a2:defaultValue = "all" ] attribute segmentGroup { NmlId }?,
+  attribute segment { NonNegativeInteger }?,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensityVShift =
+  ChannelDensity,
+  attribute vShift { Nml2Quantity_voltage }
+ChannelDensityNernst =
+  Base,
+  element variableParameter { VariableParameter }*,
+  attribute ionChannel { NmlId },
+  attribute condDensity { Nml2Quantity_conductanceDensity }?,
+  # Note: only one of the following should be used!!
+  [ a3:defaultValue = "all" ] attribute segmentGroup { NmlId }?,
+  attribute segment { NmlId }?,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensityNernstCa2 =
+  ChannelDensityNernst
+  #  No difference in structure. Specifying an independent complexType ensures generated APIs create a class for this
+  
+ChannelDensityGHK =
+  Base,
+  attribute ionChannel { NmlId },
+  attribute permeability { Nml2Quantity_permeability },
+  # Note: only one of the following should be used!!
+  [ a4:defaultValue = "all" ] attribute segmentGroup { NmlId }?,
+  attribute segment { NmlId }?,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ChannelDensityGHK2 =
+  # See https://github.com/OpenSourceBrain/ghk-nernst.
+  Base,
+  attribute ionChannel { NmlId },
+  attribute condDensity { Nml2Quantity_conductanceDensity }?,
+  # Note: only one of the following should be used!!
+  [ a5:defaultValue = "all" ] attribute segmentGroup { NmlId }?,
+  attribute segment { NmlId }?,
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, this will be set in ionChannel definition. It is added here\x{a}" ~
+         "                        TEMPORARILY since selecting all ca or na conducting channel populations/densities in a cell would be difficult otherwise.\x{a}" ~
+         "                        Also, it will make it easier to set the correct native simulator value for erev (e.g. ek for ion = k in NEURON).\x{a}" ~
+         "                        Currently a required attribute.\x{a}" ~
+         "                        It should be removed in the longer term, due to possible inconsistencies in this value and that in the ionChannel\x{a}" ~
+         "                        element. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }
+ValueAcrossSegOrSegGroup =
+  attribute value { Nml2Quantity }?,
+  # Note: only one of the following should be used!!
+  [ a6:defaultValue = "all" ] attribute segmentGroup { NmlId }?,
+  attribute segment { NmlId }?
+VariableParameter =
+  element inhomogeneousValue { InhomogeneousValue }?,
+  attribute parameter { xsd:string },
+  attribute segmentGroup { xsd:string }
+InhomogeneousValue =
+  attribute inhomogeneousParameter { xsd:string },
+  attribute value { xsd:string }
+# Taking out for now...
+# <xs:complexType name="ReversalPotential">
+# 
+#     <xs:complexContent>
+#         <xs:extension base="ValueAcrossSegOrSegGroup">
+#             <xs:attribute name="species" type="NmlId" use="optional"/>
+#         </xs:extension>
+#     </xs:complexContent>
+# 
+# </xs:complexType>
+Species =
+  ValueAcrossSegOrSegGroup,
+  attribute id { NmlId },
+  attribute concentrationModel { NmlId },
+  attribute ion {
+    NmlId
+    >> a:documentation [
+         "\x{a}" ~
+         "                        Specifying the ion here again is redundant, the ion name should be the same as id. Kept for now\x{a}" ~
+         "                            until LEMS implementation can select by id. TODO: remove.\x{a}" ~
+         "                        \x{a}" ~
+         "                    "
+       ]
+  }?,
+  attribute initialConcentration { Nml2Quantity_concentration },
+  attribute initialExtConcentration { Nml2Quantity_concentration }
+# TODO: remove
+ConcentrationModel_D =
+  DecayingPoolConcentrationModel,
+  attribute type { text }
+IntracellularProperties =
+  element species { Species }*,
+  element resistivity { Resistivity }*
+IntracellularProperties2CaPools =
+  IntracellularProperties
+  #  No difference in structure. Specifying an independent complexType ensures generated APIs create a class for this
+  
+ExtracellularProperties =
+  Base,
+  # Should be standalone, but need some real elements below or XSD not valid...
+  (element species { Species }*)
+  # Further elements will be specified!!
+  
+ExtracellularPropertiesLocal =
+  (element species { Species }*)
+  # Further elements will be specified!!
+  
+ReactionScheme =
+  Base,
+  # Should be standalone, but need some real elements below or XSD not valid...
+  element * { text }*,
+  # Further elements will be specified!!
+  attribute source { xsd:string },
+  attribute type { xsd:string }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Inputs
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Will be updated in line with LEMS ComponentType definitions
+
+## 
+##             Generates a constant current pulse of a certain amplitude (with dimensions for current) for a specified duration after a delay.
+##         
+PulseGenerator =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute amplitude { Nml2Quantity_current }
+
+## 
+##             Generates a constant current pulse of a certain amplitude (non dimensional) for a specified duration after a delay.
+##         
+PulseGeneratorDL =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute amplitude { Nml2Quantity_none }
+SineGenerator =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute phase { Nml2Quantity_none },
+  attribute duration { Nml2Quantity_time },
+  attribute amplitude { Nml2Quantity_current },
+  attribute period { Nml2Quantity_time }
+SineGeneratorDL =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute phase { Nml2Quantity_none },
+  attribute duration { Nml2Quantity_time },
+  attribute amplitude { Nml2Quantity_none },
+  attribute period { Nml2Quantity_time }
+RampGenerator =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute startAmplitude { Nml2Quantity_current },
+  attribute finishAmplitude { Nml2Quantity_current },
+  attribute baselineAmplitude { Nml2Quantity_current }
+RampGeneratorDL =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute startAmplitude { Nml2Quantity_none },
+  attribute finishAmplitude { Nml2Quantity_none },
+  attribute baselineAmplitude { Nml2Quantity_none }
+CompoundInput =
+  Standalone,
+  element pulseGenerator { PulseGenerator }*,
+  element sineGenerator { SineGenerator }*,
+  element rampGenerator { RampGenerator }*
+CompoundInputDL =
+  Standalone,
+  element pulseGeneratorDL { PulseGeneratorDL }*,
+  element sineGeneratorDL { SineGeneratorDL }*,
+  element rampGeneratorDL { RampGeneratorDL }*
+VoltageClamp =
+  Standalone,
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute targetVoltage { Nml2Quantity_voltage },
+  attribute simpleSeriesResistance { Nml2Quantity_resistance }
+VoltageClampTriple =
+  Standalone,
+  attribute active { ZeroOrOne },
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute conditioningVoltage { Nml2Quantity_voltage },
+  attribute testingVoltage { Nml2Quantity_voltage },
+  attribute returnVoltage { Nml2Quantity_voltage },
+  attribute simpleSeriesResistance { Nml2Quantity_resistance }
+Spike =
+  BaseNonNegativeIntegerId,
+  attribute time { Nml2Quantity_time }
+SpikeArray =
+  Standalone,
+  element spike { Spike }*
+TimedSynapticInput =
+  Standalone,
+  element spike { Spike }*,
+  attribute synapse { NmlId },
+  attribute spikeTarget { xsd:string }
+SpikeGenerator =
+  Standalone,
+  attribute period { Nml2Quantity_time }
+SpikeGeneratorRandom =
+  Standalone,
+  attribute maxISI { Nml2Quantity_time },
+  attribute minISI { Nml2Quantity_time }
+SpikeGeneratorPoisson =
+  Standalone,
+  attribute averageRate { Nml2Quantity_pertime }
+SpikeGeneratorRefPoisson =
+  SpikeGeneratorPoisson,
+  attribute minimumISI { Nml2Quantity_time }
+PoissonFiringSynapse =
+  Standalone,
+  attribute averageRate { Nml2Quantity_pertime },
+  attribute synapse { xsd:string },
+  attribute spikeTarget { xsd:string }
+TransientPoissonFiringSynapse =
+  Standalone,
+  attribute averageRate { Nml2Quantity_pertime },
+  attribute delay { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute synapse { xsd:string },
+  attribute spikeTarget { xsd:string }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Networks
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Network =
+  Standalone,
+  element space { Space }*,
+  element region { Region }*,
+  element extracellularProperties { ExtracellularPropertiesLocal }*,
+  element population { Population }+,
+  element cellSet { CellSet }*,
+  element synapticConnection { SynapticConnection }*,
+  # Will be updated in line with LEMS ComponentType definitions
+  element projection { Projection }*,
+  # Will be updated in line with LEMS ComponentType definitions
+  element electricalProjection { ElectricalProjection }*,
+  element continuousProjection { ContinuousProjection }*,
+  element explicitInput { ExplicitInput }*,
+  # Will be updated in line with LEMS ComponentType definitions
+  element inputList { InputList }*,
+  # Will be updated in line with LEMS ComponentType definitions
+  attribute type { networkTypes }?,
+  (attribute temperature { Nml2Quantity_temperature }?)
+  # TODO: put check that type=networkWithTemperature
+  
+networkTypes = "network" | "networkWithTemperature"
+Space =
+  # Something onto which cells & networks can be laid out, e.g. n dim grid or n dim Euclidean space
+  Base,
+  element structure { SpaceStructure }?,
+  attribute basedOn { allowedSpaces }?
+SpaceStructure =
+  attribute xSpacing { xsd:float }?,
+  attribute ySpacing { xsd:float }?,
+  #  only use if >= 2D grid
+  attribute zSpacing { xsd:float }?,
+  #  only use if 3D grid
+  [ a7:defaultValue = "0" ] attribute xStart { xsd:float }?,
+  [ a8:defaultValue = "0" ] attribute yStart { xsd:float }?,
+  #  only use if >= 2D grid
+  ([ a9:defaultValue = "0" ] attribute zStart { xsd:float }?)
+  #  only use if 3D grid
+  
+allowedSpaces =
+  "Euclidean_1D"
+  | "Euclidean_2D"
+  | "Euclidean_3D"
+  | "Grid_1D"
+  | "Grid_2D"
+  | "Grid_3D"
+Region =
+  Base,
+  element * { text }*,
+  # Further elements will be specified!!
+  attribute space { NmlId }?
+Population =
+  Standalone,
+  (element layout { Layout }?
+   | element instance { Instance }+),
+  attribute component { NmlId },
+  attribute size { NonNegativeInteger }?,
+  attribute type { populationTypes }?,
+  attribute extracellularProperties { NmlId }?
+populationTypes = "population" | "populationList"
+Layout =
+  (element random { RandomLayout }
+   | element grid { GridLayout }
+   | element unstructured { UnstructuredLayout }),
+  attribute space { NmlId }?
+UnstructuredLayout = attribute number { xsd:nonNegativeInteger }?
+RandomLayout =
+  attribute number { xsd:nonNegativeInteger }?,
+  attribute region { NmlId }?
+GridLayout =
+  attribute xSize { xsd:nonNegativeInteger }?,
+  attribute ySize { xsd:nonNegativeInteger }?,
+  #  only use if >= 2D grid
+  (attribute zSize { xsd:nonNegativeInteger }?)
+  #  only use if 3D grid
+  
+Instance =
+  element location { Location },
+  attribute id { xsd:nonNegativeInteger }?,
+  attribute i { xsd:nonNegativeInteger }?,
+  # for grid
+  attribute j { xsd:nonNegativeInteger }?,
+  # for grid
+  (attribute k { xsd:nonNegativeInteger }?)
+  # for grid
+  
+Location =
+  attribute x { xsd:float },
+  attribute y { xsd:float },
+  attribute z { xsd:float }
+CellSet =
+  Base,
+  element * { text }*,
+  # Further elements will be specified!!
+  attribute select { xsd:string }
+
+## 
+##             Single explicit connection. Introduced to test connections in LEMS. Will probably be removed in favour of
+##                 connections wrapped in projection element
+##         
+SynapticConnection =
+  attribute from { xsd:string },
+  attribute to { xsd:string },
+  attribute synapse { xsd:string },
+  attribute destination { NmlId }?
+
+## 
+##             Base for projection (set of synaptic connections) between two populations
+##         
+BaseProjection =
+  Base,
+  attribute presynapticPopulation { NmlId },
+  attribute postsynapticPopulation { NmlId }
+
+## 
+##             Projection (set of synaptic connections) between two populations. Chemical/event based synaptic transmission
+##         
+Projection =
+  BaseProjection,
+  element connection { Connection }*,
+  element connectionWD { ConnectionWD }*,
+  attribute synapse { NmlId }
+
+## 
+##             Base of all synaptic connections (chemical/electrical/analog, etc.) inside projections
+##         
+BaseConnection =
+  BaseNonNegativeIntegerId
+  #  Nothing else for now...
+  
+
+## 
+##             Base of all synaptic connections with preCellId, postSegmentId, etc. 
+##                 Note: this is not the best name for these attributes, since Id is superfluous, hence BaseConnectionNewFormat
+##         
+BaseConnectionOldFormat =
+  BaseConnection,
+  attribute preCellId { xsd:string },
+  [ a10:defaultValue = "0" ]
+  attribute preSegmentId { NonNegativeInteger }?,
+  [ a11:defaultValue = "0.5" ]
+  attribute preFractionAlong { ZeroToOne }?,
+  attribute postCellId { xsd:string },
+  [ a12:defaultValue = "0" ]
+  attribute postSegmentId { NonNegativeInteger }?,
+  [ a13:defaultValue = "0.5" ]
+  attribute postFractionAlong { ZeroToOne }?
+
+## 
+##             Base of all synaptic connections with preCell, postSegment, etc. 
+##                 See BaseConnectionOldFormat
+##         
+BaseConnectionNewFormat =
+  BaseConnection,
+  attribute preCell { xsd:string },
+  [ a14:defaultValue = "0" ]
+  attribute preSegment { NonNegativeInteger }?,
+  [ a15:defaultValue = "0.5" ]
+  attribute preFractionAlong { ZeroToOne }?,
+  attribute postCell { xsd:string },
+  [ a16:defaultValue = "0" ]
+  attribute postSegment { NonNegativeInteger }?,
+  [ a17:defaultValue = "0.5" ]
+  attribute postFractionAlong { ZeroToOne }?
+
+## 
+##             Individual chemical (event based) synaptic connection, weight==1 and no delay
+##         
+Connection = BaseConnectionOldFormat
+
+## 
+##             Individual synaptic connection with weight and delay
+##         
+ConnectionWD =
+  BaseConnectionOldFormat,
+  attribute weight { xsd:float },
+  attribute delay { Nml2Quantity_time }
+
+## 
+##             Projection between two populations consisting of electrical connections (gap junctions)
+##         
+ElectricalProjection =
+  BaseProjection,
+  element electricalConnection { ElectricalConnection }*,
+  element electricalConnectionInstance {
+    ElectricalConnectionInstance
+  }*,
+  element electricalConnectionInstanceW {
+    ElectricalConnectionInstanceW
+  }*
+
+## 
+##             Individual electrical synaptic connection
+##         
+ElectricalConnection =
+  BaseConnectionNewFormat,
+  attribute synapse { NmlId }
+
+## 
+##             Projection between two populations consisting of analog connections (e.g. graded synapses)
+##         
+ElectricalConnectionInstance = ElectricalConnection
+
+## 
+##             Projection between two populations consisting of analog connections (e.g. graded synapses). Includes setting of weight for the connection
+##         
+ElectricalConnectionInstanceW =
+  ElectricalConnectionInstance,
+  attribute weight { xsd:float }
+
+## 
+##             Projection between two populations consisting of analog connections (e.g. graded synapses)
+##         
+ContinuousProjection =
+  BaseProjection,
+  element continuousConnection { ContinuousConnection }*,
+  element continuousConnectionInstance {
+    ContinuousConnectionInstance
+  }*,
+  element continuousConnectionInstanceW {
+    ContinuousConnectionInstanceW
+  }*
+
+## 
+##             Individual continuous/analog synaptic connection
+##         
+ContinuousConnection =
+  BaseConnectionNewFormat,
+  attribute preComponent { NmlId },
+  attribute postComponent { NmlId }
+
+## 
+##             Individual continuous/analog synaptic connection - instance based
+##         
+ContinuousConnectionInstance = ContinuousConnection
+
+## 
+##             Individual continuous/analog synaptic connection - instance based. Includes setting of _weight for the connection
+##         
+ContinuousConnectionInstanceW =
+  ContinuousConnectionInstance,
+  attribute weight { xsd:float }
+
+## 
+##             Single explicit input. Introduced to test inputs in LEMS. Will probably be removed in favour of
+##                 inputs wrapped in inputList element
+##         
+ExplicitInput =
+  attribute target { xsd:string },
+  attribute input { xsd:string },
+  attribute destination { xsd:string }?
+
+## 
+##             List of inputs to a population. Currents will be provided by the specified component.
+##         
+InputList =
+  Base,
+  element input { Input }*,
+  element inputW { InputW }*,
+  attribute population { NmlId },
+  attribute component { NmlId }
+
+## 
+##             Individual input to the cell specified by target
+##         
+Input =
+  attribute id { NonNegativeInteger },
+  attribute target { xsd:string },
+  attribute destination { NmlId },
+  attribute segmentId { NonNegativeInteger }?,
+  attribute fractionAlong { ZeroToOne }?
+
+## 
+##             Individual input to the cell specified by target. Includes setting of _weight for the connection
+##         
+InputW =
+  Input,
+  attribute weight { xsd:float }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# PyNN standard cell & synapse definitions
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+basePyNNCell =
+  BaseCell,
+  attribute cm { xsd:float },
+  attribute i_offset { xsd:float },
+  attribute tau_syn_E { xsd:float },
+  attribute tau_syn_I { xsd:float },
+  attribute v_init { xsd:float }
+basePyNNIaFCell =
+  basePyNNCell,
+  attribute tau_m { xsd:float },
+  attribute tau_refrac { xsd:float },
+  attribute v_reset { xsd:float },
+  attribute v_rest { xsd:float },
+  attribute v_thresh { xsd:float }
+basePyNNIaFCondCell =
+  basePyNNIaFCell,
+  attribute e_rev_E { xsd:float },
+  attribute e_rev_I { xsd:float }
+IF_curr_alpha = basePyNNIaFCell
+IF_curr_exp = basePyNNIaFCell
+IF_cond_alpha = basePyNNIaFCondCell
+IF_cond_exp = basePyNNIaFCondCell
+EIF_cond_exp_isfa_ista =
+  basePyNNIaFCondCell,
+  attribute a { xsd:float },
+  attribute b { xsd:float },
+  attribute delta_T { xsd:float },
+  attribute tau_w { xsd:float },
+  attribute v_spike { xsd:float }
+EIF_cond_alpha_isfa_ista = EIF_cond_exp_isfa_ista
+HH_cond_exp =
+  basePyNNCell,
+  attribute v_offset { xsd:float },
+  attribute e_rev_E { xsd:float },
+  attribute e_rev_I { xsd:float },
+  attribute e_rev_K { xsd:float },
+  attribute e_rev_Na { xsd:float },
+  attribute e_rev_leak { xsd:float },
+  attribute g_leak { xsd:float },
+  attribute gbar_K { xsd:float },
+  attribute gbar_Na { xsd:float }
+BasePynnSynapse =
+  BaseSynapse,
+  attribute tau_syn { xsd:float }
+ExpCondSynapse =
+  BasePynnSynapse,
+  attribute e_rev { xsd:float }
+AlphaCondSynapse =
+  BasePynnSynapse,
+  attribute e_rev { xsd:float }
+ExpCurrSynapse = BasePynnSynapse
+AlphaCurrSynapse = BasePynnSynapse
+SpikeSourcePoisson =
+  Standalone,
+  attribute start { Nml2Quantity_time },
+  attribute duration { Nml2Quantity_time },
+  attribute rate { Nml2Quantity_pertime }
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Further Core elements
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# NOTE: Base and Standalone definitions moved to end of file, as some XML language binding
+# generators, e.g. generateDS.py, require superclasses to be defined after the subclasses...
+
+## 
+##             Base element without ID specified *yet*, e.g. for an element with a particular requirement on its id which does not comply with NmlId (e.g. Segment needs nonNegativeInteger).
+##         
+BaseWithoutId = attribute neuroLexId { NeuroLexId }?
+
+## 
+##             Anything which can have a unique (within its parent) id, which must be an integer zero or greater.
+##         
+BaseNonNegativeIntegerId =
+  BaseWithoutId,
+  attribute id { NonNegativeInteger }
+
+## 
+##             Anything which can have a unique (within its parent) id of the form NmlId (spaceless combination of letters, numbers and underscore).
+##         
+Base =
+  BaseWithoutId,
+  attribute id { NmlId }
+
+## 
+##             Elements which can stand alone and be referenced by id, e.g. cell, morphology.
+##         
+Standalone =
+  Base,
+  element notes { Notes }?,
+  # More metadata needed
+  element property { Property }*,
+  # More metadata needed
+  element annotation { Annotation }?,
+  # More metadata needed
+  attribute metaid { MetaId }?
