@@ -22,7 +22,7 @@
       </instance>
     </population>
     
-    <synapticConnection from="TheManySpikeArray" to="../mb/0/IF_curr_exp_mb" synapse="syn_0" />
+    <synapticConnection from="TheManySpikeArray" to="mb/0/IF_curr_exp_mb" synapse="syn_0" />
     
     <!-- <projection id="singlein_to_singleout" -->
     <!-- 		presynapticPopulation="singlespikesources" -->
