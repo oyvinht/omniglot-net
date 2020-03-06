@@ -16,13 +16,16 @@
   <expCurrSynapse id="syn_0" tau_syn="8"/>
   
   <network id="network" >
+
+    <population id="TheManySpikeArrayPop" component="TheManySpikeArray" size="1"/>
+    
     <population id="mb" component="IF_curr_exp_mb" size="1" type="populationList">
       <instance id="0">
 	<location x="0." y="0." z="0."/>
       </instance>
     </population>
     
-    <synapticConnection from="/TheManySpikeArray" to="/network/mb/0/IF_curr_exp_mb" synapse="syn_0" />
+    <synapticConnection from="/network/TheManySpikeArrayPop" to="/network/mb/0/IF_curr_exp_mb" synapse="syn_0" />
     
     <!-- <projection id="singlein_to_singleout" -->
     <!-- 		presynapticPopulation="singlespikesources" -->
