@@ -189,16 +189,12 @@
         <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
             <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
         </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_input_layer_0_1" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+        <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4">
+            <connection id="4" preCellId="../mushroom/2/IF_curr_exp_mushroom" postCellId="../output/0/IF_curr_exp_output"/>
         </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4"/>
         <projection id="projection_5" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_5">
             <connection id="5" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
             <connection id="5" preCellId="../mushroom/1/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
