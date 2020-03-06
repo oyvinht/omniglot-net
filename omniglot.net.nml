@@ -1,323 +1,15 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="PyNNGeNNNeuroML">
     <spikeArray id="SpikeArray_input_layer_3_0">
         <spike id="0" time="924.0ms"/>
-        <spike id="1" time="2905.0ms"/>
-        <spike id="2" time="4720.0ms"/>
-        <spike id="3" time="6907.0ms"/>
-        <spike id="4" time="8217.0ms"/>
-        <spike id="5" time="10602.0ms"/>
-        <spike id="6" time="10717.0ms"/>
-        <spike id="7" time="10918.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_1">
-        <spike id="0" time="10.0ms"/>
-        <spike id="1" time="210.0ms"/>
-        <spike id="2" time="1011.0ms"/>
-        <spike id="3" time="1506.0ms"/>
-        <spike id="4" time="1907.0ms"/>
-        <spike id="5" time="2411.0ms"/>
-        <spike id="6" time="2508.0ms"/>
-        <spike id="7" time="3815.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_2">
-        <spike id="0" time="705.0ms"/>
-        <spike id="1" time="1619.0ms"/>
-        <spike id="2" time="2511.0ms"/>
-        <spike id="3" time="2805.0ms"/>
-        <spike id="4" time="3201.0ms"/>
-        <spike id="5" time="3914.0ms"/>
-        <spike id="6" time="5400.0ms"/>
-        <spike id="7" time="5518.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_3">
-        <spike id="0" time="519.0ms"/>
-        <spike id="1" time="914.0ms"/>
-        <spike id="2" time="1106.0ms"/>
-        <spike id="3" time="2509.0ms"/>
-        <spike id="4" time="3717.0ms"/>
-        <spike id="5" time="4802.0ms"/>
-        <spike id="6" time="5003.0ms"/>
-        <spike id="7" time="5421.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_4">
-        <spike id="0" time="617.0ms"/>
-        <spike id="1" time="802.0ms"/>
-        <spike id="2" time="1402.0ms"/>
-        <spike id="3" time="1823.0ms"/>
-        <spike id="4" time="2010.0ms"/>
-        <spike id="5" time="2111.0ms"/>
-        <spike id="6" time="4920.0ms"/>
-        <spike id="7" time="5718.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_5">
-        <spike id="0" time="614.0ms"/>
-        <spike id="1" time="1012.0ms"/>
-        <spike id="2" time="2411.0ms"/>
-        <spike id="3" time="2519.0ms"/>
-        <spike id="4" time="3211.0ms"/>
-        <spike id="5" time="5006.0ms"/>
-        <spike id="6" time="5602.0ms"/>
-        <spike id="7" time="6404.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_6">
-        <spike id="0" time="1206.0ms"/>
-        <spike id="1" time="1819.0ms"/>
-        <spike id="2" time="2610.0ms"/>
-        <spike id="3" time="3220.0ms"/>
-        <spike id="4" time="4902.0ms"/>
-        <spike id="5" time="6212.0ms"/>
-        <spike id="6" time="7315.0ms"/>
-        <spike id="7" time="9116.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_3_7">
-        <spike id="0" time="223.0ms"/>
-        <spike id="1" time="318.0ms"/>
-        <spike id="2" time="722.0ms"/>
-        <spike id="3" time="2108.0ms"/>
-        <spike id="4" time="3419.0ms"/>
-        <spike id="5" time="4015.0ms"/>
-        <spike id="6" time="5411.0ms"/>
-        <spike id="7" time="8508.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_2_0">
         <spike id="0" time="621.0ms"/>
-        <spike id="1" time="1117.0ms"/>
-        <spike id="2" time="1919.0ms"/>
-        <spike id="3" time="3619.0ms"/>
-        <spike id="4" time="3801.0ms"/>
-        <spike id="5" time="4923.0ms"/>
-        <spike id="6" time="5913.0ms"/>
-        <spike id="7" time="6921.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_1">
-        <spike id="0" time="824.0ms"/>
-        <spike id="1" time="1220.0ms"/>
-        <spike id="2" time="1621.0ms"/>
-        <spike id="3" time="2208.0ms"/>
-        <spike id="4" time="3016.0ms"/>
-        <spike id="5" time="3700.0ms"/>
-        <spike id="6" time="4010.0ms"/>
-        <spike id="7" time="4212.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_2">
-        <spike id="0" time="1109.0ms"/>
-        <spike id="1" time="1220.0ms"/>
-        <spike id="2" time="1512.0ms"/>
-        <spike id="3" time="2118.0ms"/>
-        <spike id="4" time="2910.0ms"/>
-        <spike id="5" time="3614.0ms"/>
-        <spike id="6" time="3723.0ms"/>
-        <spike id="7" time="3803.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_3">
-        <spike id="0" time="1014.0ms"/>
-        <spike id="1" time="2816.0ms"/>
-        <spike id="2" time="3023.0ms"/>
-        <spike id="3" time="4220.0ms"/>
-        <spike id="4" time="4621.0ms"/>
-        <spike id="5" time="8419.0ms"/>
-        <spike id="6" time="10712.0ms"/>
-        <spike id="7" time="13417.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_4">
-        <spike id="0" time="619.0ms"/>
-        <spike id="1" time="903.0ms"/>
-        <spike id="2" time="1911.0ms"/>
-        <spike id="3" time="3200.0ms"/>
-        <spike id="4" time="3320.0ms"/>
-        <spike id="5" time="3611.0ms"/>
-        <spike id="6" time="4018.0ms"/>
-        <spike id="7" time="5712.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_5">
-        <spike id="0" time="301.0ms"/>
-        <spike id="1" time="2102.0ms"/>
-        <spike id="2" time="3916.0ms"/>
-        <spike id="3" time="5621.0ms"/>
-        <spike id="4" time="5705.0ms"/>
-        <spike id="5" time="6512.0ms"/>
-        <spike id="6" time="6607.0ms"/>
-        <spike id="7" time="7309.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_6">
-        <spike id="0" time="822.0ms"/>
-        <spike id="1" time="1823.0ms"/>
-        <spike id="2" time="1902.0ms"/>
-        <spike id="3" time="3822.0ms"/>
-        <spike id="4" time="5009.0ms"/>
-        <spike id="5" time="6614.0ms"/>
-        <spike id="6" time="6902.0ms"/>
-        <spike id="7" time="9415.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_2_7">
-        <spike id="0" time="1518.0ms"/>
-        <spike id="1" time="2104.0ms"/>
-        <spike id="2" time="2608.0ms"/>
-        <spike id="3" time="3302.0ms"/>
-        <spike id="4" time="5002.0ms"/>
-        <spike id="5" time="5121.0ms"/>
-        <spike id="6" time="5520.0ms"/>
-        <spike id="7" time="5904.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_1_0">
         <spike id="0" time="110.0ms"/>
-        <spike id="1" time="1217.0ms"/>
-        <spike id="2" time="2903.0ms"/>
-        <spike id="3" time="3100.0ms"/>
-        <spike id="4" time="3920.0ms"/>
-        <spike id="5" time="4217.0ms"/>
-        <spike id="6" time="5711.0ms"/>
-        <spike id="7" time="5915.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_1">
-        <spike id="0" time="215.0ms"/>
-        <spike id="1" time="705.0ms"/>
-        <spike id="2" time="816.0ms"/>
-        <spike id="3" time="1404.0ms"/>
-        <spike id="4" time="2324.0ms"/>
-        <spike id="5" time="3413.0ms"/>
-        <spike id="6" time="4718.0ms"/>
-        <spike id="7" time="5623.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_2">
-        <spike id="0" time="316.0ms"/>
-        <spike id="1" time="1415.0ms"/>
-        <spike id="2" time="1500.0ms"/>
-        <spike id="3" time="2714.0ms"/>
-        <spike id="4" time="4000.0ms"/>
-        <spike id="5" time="4603.0ms"/>
-        <spike id="6" time="4703.0ms"/>
-        <spike id="7" time="6003.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_3">
-        <spike id="0" time="120.0ms"/>
-        <spike id="1" time="420.0ms"/>
-        <spike id="2" time="1010.0ms"/>
-        <spike id="3" time="1324.0ms"/>
-        <spike id="4" time="1914.0ms"/>
-        <spike id="5" time="2318.0ms"/>
-        <spike id="6" time="2608.0ms"/>
-        <spike id="7" time="3007.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_4">
-        <spike id="0" time="1609.0ms"/>
-        <spike id="1" time="2413.0ms"/>
-        <spike id="2" time="3702.0ms"/>
-        <spike id="3" time="7322.0ms"/>
-        <spike id="4" time="8708.0ms"/>
-        <spike id="5" time="9707.0ms"/>
-        <spike id="6" time="11523.0ms"/>
-        <spike id="7" time="11713.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_5">
-        <spike id="0" time="1221.0ms"/>
-        <spike id="1" time="2307.0ms"/>
-        <spike id="2" time="2614.0ms"/>
-        <spike id="3" time="3306.0ms"/>
-        <spike id="4" time="3400.0ms"/>
-        <spike id="5" time="4514.0ms"/>
-        <spike id="6" time="5917.0ms"/>
-        <spike id="7" time="6702.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_6">
-        <spike id="0" time="124.0ms"/>
-        <spike id="1" time="311.0ms"/>
-        <spike id="2" time="422.0ms"/>
-        <spike id="3" time="905.0ms"/>
-        <spike id="4" time="2008.0ms"/>
-        <spike id="5" time="2112.0ms"/>
-        <spike id="6" time="3724.0ms"/>
-        <spike id="7" time="4702.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_1_7">
-        <spike id="0" time="504.0ms"/>
-        <spike id="1" time="1010.0ms"/>
-        <spike id="2" time="1113.0ms"/>
-        <spike id="3" time="3916.0ms"/>
-        <spike id="4" time="4524.0ms"/>
-        <spike id="5" time="5311.0ms"/>
-        <spike id="6" time="5804.0ms"/>
-        <spike id="7" time="5901.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_0_0">
         <spike id="0" time="24.0ms"/>
-        <spike id="1" time="1318.0ms"/>
-        <spike id="2" time="1521.0ms"/>
-        <spike id="3" time="2023.0ms"/>
-        <spike id="4" time="4513.0ms"/>
-        <spike id="5" time="5110.0ms"/>
-        <spike id="6" time="5201.0ms"/>
-        <spike id="7" time="8007.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_1">
-        <spike id="0" time="408.0ms"/>
-        <spike id="1" time="10324.0ms"/>
-        <spike id="2" time="11815.0ms"/>
-        <spike id="3" time="12824.0ms"/>
-        <spike id="4" time="13309.0ms"/>
-        <spike id="5" time="14117.0ms"/>
-        <spike id="6" time="14404.0ms"/>
-        <spike id="7" time="15419.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_2">
-        <spike id="0" time="204.0ms"/>
-        <spike id="1" time="606.0ms"/>
-        <spike id="2" time="1315.0ms"/>
-        <spike id="3" time="1717.0ms"/>
-        <spike id="4" time="1800.0ms"/>
-        <spike id="5" time="2323.0ms"/>
-        <spike id="6" time="4904.0ms"/>
-        <spike id="7" time="5624.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_3">
-        <spike id="0" time="305.0ms"/>
-        <spike id="1" time="404.0ms"/>
-        <spike id="2" time="8717.0ms"/>
-        <spike id="3" time="10106.0ms"/>
-        <spike id="4" time="13324.0ms"/>
-        <spike id="5" time="17419.0ms"/>
-        <spike id="6" time="18315.0ms"/>
-        <spike id="7" time="19712.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_4">
-        <spike id="0" time="19.0ms"/>
-        <spike id="1" time="3113.0ms"/>
-        <spike id="2" time="6623.0ms"/>
-        <spike id="3" time="7819.0ms"/>
-        <spike id="4" time="8024.0ms"/>
-        <spike id="5" time="8500.0ms"/>
-        <spike id="6" time="11212.0ms"/>
-        <spike id="7" time="11703.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_5">
-        <spike id="0" time="100.0ms"/>
-        <spike id="1" time="209.0ms"/>
-        <spike id="2" time="3607.0ms"/>
-        <spike id="3" time="4520.0ms"/>
-        <spike id="4" time="6906.0ms"/>
-        <spike id="5" time="7620.0ms"/>
-        <spike id="6" time="8103.0ms"/>
-        <spike id="7" time="9810.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_6">
-        <spike id="0" time="111.0ms"/>
-        <spike id="1" time="403.0ms"/>
-        <spike id="2" time="519.0ms"/>
-        <spike id="3" time="2113.0ms"/>
-        <spike id="4" time="5814.0ms"/>
-        <spike id="5" time="6622.0ms"/>
-        <spike id="6" time="7814.0ms"/>
-        <spike id="7" time="10119.0ms"/>
-    </spikeArray>
-    <spikeArray id="SpikeArray_input_layer_0_7">
-        <spike id="0" time="1512.0ms"/>
-        <spike id="1" time="2613.0ms"/>
-        <spike id="2" time="2806.0ms"/>
-        <spike id="3" time="7115.0ms"/>
-        <spike id="4" time="7705.0ms"/>
-        <spike id="5" time="12511.0ms"/>
-        <spike id="6" time="15507.0ms"/>
-        <spike id="7" time="17201.0ms"/>
     </spikeArray>
     <IF_curr_exp id="IF_curr_exp_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_inh_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
@@ -334,113 +26,22 @@
     <expCurrSynapse id="syn_8" tau_syn="5."/>
     <network id="network">
         <population id="SpikeArray_input_layer_3_0_pop" component="SpikeArray_input_layer_3_0" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_1_pop" component="SpikeArray_input_layer_3_1" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_2_pop" component="SpikeArray_input_layer_3_2" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_3_pop" component="SpikeArray_input_layer_3_3" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_4_pop" component="SpikeArray_input_layer_3_4" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_5_pop" component="SpikeArray_input_layer_3_5" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_6_pop" component="SpikeArray_input_layer_3_6" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_3_7_pop" component="SpikeArray_input_layer_3_7" size="1" type="population"/>
         <population id="SpikeArray_input_layer_2_0_pop" component="SpikeArray_input_layer_2_0" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_1_pop" component="SpikeArray_input_layer_2_1" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_2_pop" component="SpikeArray_input_layer_2_2" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_3_pop" component="SpikeArray_input_layer_2_3" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_4_pop" component="SpikeArray_input_layer_2_4" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_5_pop" component="SpikeArray_input_layer_2_5" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_6_pop" component="SpikeArray_input_layer_2_6" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_2_7_pop" component="SpikeArray_input_layer_2_7" size="1" type="population"/>
         <population id="SpikeArray_input_layer_1_0_pop" component="SpikeArray_input_layer_1_0" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_1_pop" component="SpikeArray_input_layer_1_1" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_2_pop" component="SpikeArray_input_layer_1_2" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_3_pop" component="SpikeArray_input_layer_1_3" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_4_pop" component="SpikeArray_input_layer_1_4" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_5_pop" component="SpikeArray_input_layer_1_5" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_6_pop" component="SpikeArray_input_layer_1_6" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_1_7_pop" component="SpikeArray_input_layer_1_7" size="1" type="population"/>
         <population id="SpikeArray_input_layer_0_0_pop" component="SpikeArray_input_layer_0_0" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_1_pop" component="SpikeArray_input_layer_0_1" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_2_pop" component="SpikeArray_input_layer_0_2" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_3_pop" component="SpikeArray_input_layer_0_3" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_4_pop" component="SpikeArray_input_layer_0_4" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_5_pop" component="SpikeArray_input_layer_0_5" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_6_pop" component="SpikeArray_input_layer_0_6" size="1" type="population"/>
-        <population id="SpikeArray_input_layer_0_7_pop" component="SpikeArray_input_layer_0_7" size="1" type="population"/>
-        <population id="mushroom" component="IF_curr_exp_mushroom" size="8" type="populationList">
+        <population id="mushroom" component="IF_curr_exp_mushroom" size="1" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="16."/>
             </instance>
-            <instance id="1">
-                <location x="1." y="0." z="16."/>
-            </instance>
-            <instance id="2">
-                <location x="0." y="1." z="16."/>
-            </instance>
-            <instance id="3">
-                <location x="1." y="1." z="16."/>
-            </instance>
-            <instance id="4">
-                <location x="0." y="2." z="16."/>
-            </instance>
-            <instance id="5">
-                <location x="1." y="2." z="16."/>
-            </instance>
-            <instance id="6">
-                <location x="0." y="3." z="16."/>
-            </instance>
-            <instance id="7">
-                <location x="1." y="3." z="16."/>
-            </instance>
         </population>
-        <population id="inh_mushroom" component="IF_curr_exp_inh_mushroom" size="8" type="populationList">
+        <population id="inh_mushroom" component="IF_curr_exp_inh_mushroom" size="1" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="20."/>
             </instance>
-            <instance id="1">
-                <location x="1." y="0." z="20."/>
-            </instance>
-            <instance id="2">
-                <location x="0." y="1." z="20."/>
-            </instance>
-            <instance id="3">
-                <location x="1." y="1." z="20."/>
-            </instance>
-            <instance id="4">
-                <location x="0." y="2." z="20."/>
-            </instance>
-            <instance id="5">
-                <location x="1." y="2." z="20."/>
-            </instance>
-            <instance id="6">
-                <location x="0." y="3." z="20."/>
-            </instance>
-            <instance id="7">
-                <location x="1." y="3." z="20."/>
-            </instance>
         </population>
-        <population id="output" component="IF_curr_exp_output" size="8" type="populationList">
+        <population id="output" component="IF_curr_exp_output" size="1" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="24."/>
-            </instance>
-            <instance id="1">
-                <location x="1." y="0." z="24."/>
-            </instance>
-            <instance id="2">
-                <location x="0." y="1." z="24."/>
-            </instance>
-            <instance id="3">
-                <location x="1." y="1." z="24."/>
-            </instance>
-            <instance id="4">
-                <location x="0." y="2." z="24."/>
-            </instance>
-            <instance id="5">
-                <location x="1." y="2." z="24."/>
-            </instance>
-            <instance id="6">
-                <location x="0." y="3." z="24."/>
-            </instance>
-            <instance id="7">
-                <location x="1." y="3." z="24."/>
             </instance>
         </population>
         <population id="inh_output" component="IF_curr_exp_inh_output" size="1" type="populationList">
@@ -448,132 +49,18 @@
                 <location x="0." y="0." z="28."/>
             </instance>
         </population>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_input_layer_0_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_input_layer_0_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_input_layer_0_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4">
-            <connection id="4" preCellId="../mushroom/6/IF_curr_exp_mushroom" postCellId="../output/5/IF_curr_exp_output"/>
-        </projection>
+        <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4"/>
         <projection id="projection_5" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_5">
             <connection id="5" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/1/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/2/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/3/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/4/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/5/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/6/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
-            <connection id="5" preCellId="../mushroom/7/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
         </projection>
         <projection id="projection_6" presynapticPopulation="inh_mushroom" postsynapticPopulation="mushroom" synapse="syn_6">
             <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_7" presynapticPopulation="output" postsynapticPopulation="inh_output" synapse="syn_7">
             <connection id="7" preCellId="../output/0/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/1/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/2/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/3/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/4/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/5/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/6/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
-            <connection id="7" preCellId="../output/7/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
         </projection>
         <projection id="projection_8" presynapticPopulation="inh_output" postsynapticPopulation="output" synapse="syn_8">
             <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/0/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/1/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/2/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/3/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/4/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/5/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/6/IF_curr_exp_output"/>
-            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/7/IF_curr_exp_output"/>
         </projection>
     </network>
 </neuroml>
