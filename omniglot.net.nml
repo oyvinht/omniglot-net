@@ -448,108 +448,92 @@
                 <location x="0." y="0." z="28."/>
             </instance>
         </population>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_SpikeArray_input_layer_0_3_pop" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_SpikeArray_input_layer_0_6_pop" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_SpikeArray_input_layer_0_4_pop" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_SpikeArray_input_layer_0_2_pop" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
-        </projection>
         <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_SpikeArray_input_layer_0_0_pop" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
         </projection>
-        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_SpikeArray_input_layer_0_1_pop" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_input_layer_0_3" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_SpikeArray_input_layer_0_7_pop" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
         </projection>
-        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_SpikeArray_input_layer_0_1_pop" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_SpikeArray_input_layer_0_0_pop" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_SpikeArray_input_layer_0_4_pop" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
+        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_SpikeArray_input_layer_0_2_pop" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_SpikeArray_input_layer_0_5_pop" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_SpikeArray_input_layer_0_4_pop" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_SpikeArray_input_layer_0_6_pop" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_SpikeArray_input_layer_0_3_pop" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_SpikeArray_input_layer_0_0_pop" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_SpikeArray_input_layer_0_5_pop" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_SpikeArray_input_layer_0_4_pop" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_SpikeArray_input_layer_0_3_pop" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_SpikeArray_input_layer_0_0_pop" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_SpikeArray_input_layer_0_6_pop" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_SpikeArray_input_layer_0_5_pop" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_SpikeArray_input_layer_0_3_pop" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_SpikeArray_input_layer_0_4_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_SpikeArray_input_layer_0_2_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_SpikeArray_input_layer_0_3_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_SpikeArray_input_layer_0_7_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_SpikeArray_input_layer_0_1_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_SpikeArray_input_layer_0_5_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_SpikeArray_input_layer_0_0_pop" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
-        </projection>
-        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_SpikeArray_input_layer_0_0_pop" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_3_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_3_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_SpikeArray_input_layer_0_3_pop" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_3_pop/0/SpikeArray_input_layer_0_3" postCellId="../mushroom/2/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
-            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_SpikeArray_input_layer_0_5_pop" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_input_layer_0_1" postCellId="../mushroom/3/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/4/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/5/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_4_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_4_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_4_pop/0/SpikeArray_input_layer_0_4" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/6/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_5_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_5_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_5_pop/0/SpikeArray_input_layer_0_5" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_2_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_2_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_2_pop/0/SpikeArray_input_layer_0_2" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_6_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_6_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_6_pop/0/SpikeArray_input_layer_0_6" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_7_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_7_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_7_pop/0/SpikeArray_input_layer_0_7" postCellId="../mushroom/7/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4">
-            <connection id="4" preCellId="../mushroom/4/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
-            <connection id="4" preCellId="../mushroom/3/IF_curr_exp_mushroom" postCellId="../output/2/IF_curr_exp_output"/>
+            <connection id="4" preCellId="../mushroom/6/IF_curr_exp_mushroom" postCellId="../output/5/IF_curr_exp_output"/>
         </projection>
         <projection id="projection_5" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_5">
             <connection id="5" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
