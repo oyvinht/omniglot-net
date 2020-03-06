@@ -25,25 +25,14 @@
       </instance>
     </population>
     
-    <synapticConnection from="/network/TheManySpikeArrayPop" to="/network/mb/0/IF_curr_exp_mb" synapse="syn_0" />
-    
-    <!-- <projection id="singlein_to_singleout" -->
-    <!-- 		presynapticPopulation="singlespikesources" -->
-    <!-- 		postsynapticPopulation="singleout" -->
-    <!-- 		synapse="syn_0"> -->
-    <!--   <connection id="0" -->
-    <!-- 		  preCellId="../singlespikesources/0/TheSingleSpikeArray" -->
-    <!-- 		  postCellId="../singleout/0/The_IF_curr_exp"/> -->
-    <!-- </projection> -->
-
-    <!-- <projection id="manyin_to_manyout" -->
-    <!-- 		presynapticPopulation="manyspikesources" -->
-    <!-- 		postsynapticPopulation="manyout" -->
-    <!-- 		synapse="syn_0"> -->
-    <!--   <connection id="0" -->
-    <!-- 		  preCellId="../manyspikesources/0/TheManySpikeArray" -->
-    <!-- 		  postCellId="../manyout/0/The_IF_curr_exp"/> -->
-    <!-- </projection> -->
+    <projection id="TheManySpikeArrayPop_to_mb"
+		presynapticPopulation="TheManySpikeArrayPop"
+		postsynapticPopulation="mb"
+		synapse="syn_0">
+      <connection id="0"
+		  preCellId="../TheManySpikeArrayPop/0/TheManySpikeArray"
+		  postCellId="../mb/0/IF_curr_exp_mb"/>
+    </projection>
     
   </network>
   
