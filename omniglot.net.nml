@@ -2,14 +2,26 @@
     <spikeArray id="SpikeArray_input_layer_3_0">
         <spike id="0" time="924.0ms"/>
     </spikeArray>
+    <spikeArray id="SpikeArray_input_layer_3_1">
+        <spike id="0" time="10.0ms"/>
+    </spikeArray>
     <spikeArray id="SpikeArray_input_layer_2_0">
         <spike id="0" time="621.0ms"/>
+    </spikeArray>
+    <spikeArray id="SpikeArray_input_layer_2_1">
+        <spike id="0" time="824.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_1_0">
         <spike id="0" time="110.0ms"/>
     </spikeArray>
+    <spikeArray id="SpikeArray_input_layer_1_1">
+        <spike id="0" time="215.0ms"/>
+    </spikeArray>
     <spikeArray id="SpikeArray_input_layer_0_0">
         <spike id="0" time="24.0ms"/>
+    </spikeArray>
+    <spikeArray id="SpikeArray_input_layer_0_1">
+        <spike id="0" time="408.0ms"/>
     </spikeArray>
     <IF_curr_exp id="IF_curr_exp_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_inh_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
@@ -26,22 +38,35 @@
     <expCurrSynapse id="syn_8" tau_syn="5."/>
     <network id="network">
         <population id="SpikeArray_input_layer_3_0_pop" component="SpikeArray_input_layer_3_0" size="1" type="population"/>
+        <population id="SpikeArray_input_layer_3_1_pop" component="SpikeArray_input_layer_3_1" size="1" type="population"/>
         <population id="SpikeArray_input_layer_2_0_pop" component="SpikeArray_input_layer_2_0" size="1" type="population"/>
+        <population id="SpikeArray_input_layer_2_1_pop" component="SpikeArray_input_layer_2_1" size="1" type="population"/>
         <population id="SpikeArray_input_layer_1_0_pop" component="SpikeArray_input_layer_1_0" size="1" type="population"/>
+        <population id="SpikeArray_input_layer_1_1_pop" component="SpikeArray_input_layer_1_1" size="1" type="population"/>
         <population id="SpikeArray_input_layer_0_0_pop" component="SpikeArray_input_layer_0_0" size="1" type="population"/>
-        <population id="mushroom" component="IF_curr_exp_mushroom" size="1" type="populationList">
+        <population id="SpikeArray_input_layer_0_1_pop" component="SpikeArray_input_layer_0_1" size="1" type="population"/>
+        <population id="mushroom" component="IF_curr_exp_mushroom" size="2" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="16."/>
             </instance>
+            <instance id="1">
+                <location x="0." y="1." z="16."/>
+            </instance>
         </population>
-        <population id="inh_mushroom" component="IF_curr_exp_inh_mushroom" size="1" type="populationList">
+        <population id="inh_mushroom" component="IF_curr_exp_inh_mushroom" size="2" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="20."/>
             </instance>
+            <instance id="1">
+                <location x="0." y="1." z="20."/>
+            </instance>
         </population>
-        <population id="output" component="IF_curr_exp_output" size="1" type="populationList">
+        <population id="output" component="IF_curr_exp_output" size="2" type="populationList">
             <instance id="0">
                 <location x="0." y="0." z="24."/>
+            </instance>
+            <instance id="1">
+                <location x="0." y="1." z="24."/>
             </instance>
         </population>
         <population id="inh_output" component="IF_curr_exp_inh_output" size="1" type="populationList">
@@ -49,18 +74,25 @@
                 <location x="0." y="0." z="28."/>
             </instance>
         </population>
+        <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        </projection>
         <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4"/>
         <projection id="projection_5" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_5">
             <connection id="5" preCellId="../mushroom/0/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
+            <connection id="5" preCellId="../mushroom/1/IF_curr_exp_mushroom" postCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom"/>
         </projection>
         <projection id="projection_6" presynapticPopulation="inh_mushroom" postsynapticPopulation="mushroom" synapse="syn_6">
             <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+            <connection id="6" preCellId="../inh_mushroom/0/IF_curr_exp_inh_mushroom" postCellId="../mushroom/1/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_7" presynapticPopulation="output" postsynapticPopulation="inh_output" synapse="syn_7">
             <connection id="7" preCellId="../output/0/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
+            <connection id="7" preCellId="../output/1/IF_curr_exp_output" postCellId="../inh_output/0/IF_curr_exp_inh_output"/>
         </projection>
         <projection id="projection_8" presynapticPopulation="inh_output" postsynapticPopulation="output" synapse="syn_8">
             <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/0/IF_curr_exp_output"/>
+            <connection id="8" preCellId="../inh_output/0/IF_curr_exp_inh_output" postCellId="../output/1/IF_curr_exp_output"/>
         </projection>
     </network>
 </neuroml>
