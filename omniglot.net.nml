@@ -1,27 +1,83 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="PyNNGeNNNeuroML">
     <spikeArray id="SpikeArray_input_layer_3_0">
         <spike id="0" time="924.0ms"/>
+        <spike id="1" time="2905.0ms"/>
+        <spike id="2" time="4720.0ms"/>
+        <spike id="3" time="6907.0ms"/>
+        <spike id="4" time="8217.0ms"/>
+        <spike id="5" time="10602.0ms"/>
+        <spike id="6" time="10717.0ms"/>
+        <spike id="7" time="10918.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_3_1">
         <spike id="0" time="10.0ms"/>
+        <spike id="1" time="210.0ms"/>
+        <spike id="2" time="1011.0ms"/>
+        <spike id="3" time="1506.0ms"/>
+        <spike id="4" time="1907.0ms"/>
+        <spike id="5" time="2411.0ms"/>
+        <spike id="6" time="2508.0ms"/>
+        <spike id="7" time="3815.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_2_0">
         <spike id="0" time="621.0ms"/>
+        <spike id="1" time="1117.0ms"/>
+        <spike id="2" time="1919.0ms"/>
+        <spike id="3" time="3619.0ms"/>
+        <spike id="4" time="3801.0ms"/>
+        <spike id="5" time="4923.0ms"/>
+        <spike id="6" time="5913.0ms"/>
+        <spike id="7" time="6921.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_2_1">
         <spike id="0" time="824.0ms"/>
+        <spike id="1" time="1220.0ms"/>
+        <spike id="2" time="1621.0ms"/>
+        <spike id="3" time="2208.0ms"/>
+        <spike id="4" time="3016.0ms"/>
+        <spike id="5" time="3700.0ms"/>
+        <spike id="6" time="4010.0ms"/>
+        <spike id="7" time="4212.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_1_0">
         <spike id="0" time="110.0ms"/>
+        <spike id="1" time="1217.0ms"/>
+        <spike id="2" time="2903.0ms"/>
+        <spike id="3" time="3100.0ms"/>
+        <spike id="4" time="3920.0ms"/>
+        <spike id="5" time="4217.0ms"/>
+        <spike id="6" time="5711.0ms"/>
+        <spike id="7" time="5915.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_1_1">
         <spike id="0" time="215.0ms"/>
+        <spike id="1" time="705.0ms"/>
+        <spike id="2" time="816.0ms"/>
+        <spike id="3" time="1404.0ms"/>
+        <spike id="4" time="2324.0ms"/>
+        <spike id="5" time="3413.0ms"/>
+        <spike id="6" time="4718.0ms"/>
+        <spike id="7" time="5623.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_0_0">
         <spike id="0" time="24.0ms"/>
+        <spike id="1" time="1318.0ms"/>
+        <spike id="2" time="1521.0ms"/>
+        <spike id="3" time="2023.0ms"/>
+        <spike id="4" time="4513.0ms"/>
+        <spike id="5" time="5110.0ms"/>
+        <spike id="6" time="5201.0ms"/>
+        <spike id="7" time="8007.0ms"/>
     </spikeArray>
     <spikeArray id="SpikeArray_input_layer_0_1">
         <spike id="0" time="408.0ms"/>
+        <spike id="1" time="10324.0ms"/>
+        <spike id="2" time="11815.0ms"/>
+        <spike id="3" time="12824.0ms"/>
+        <spike id="4" time="13309.0ms"/>
+        <spike id="5" time="14117.0ms"/>
+        <spike id="6" time="14404.0ms"/>
+        <spike id="7" time="15419.0ms"/>
     </spikeArray>
     <IF_curr_exp id="IF_curr_exp_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
     <IF_curr_exp id="IF_curr_exp_inh_mushroom" cm="1." i_offset="0." tau_syn_E="5." tau_syn_I="5." v_init="0." tau_m="20." tau_refrac="0.1" v_reset="-65." v_rest="-65." v_thresh="-50."/>
@@ -76,6 +132,9 @@
         </population>
         <projection id="SpikeArray_input_layer_0_0_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_0_pop" postsynapticPopulation="mushroom" synapse="syn_0">
             <connection id="0" preCellId="../SpikeArray_input_layer_0_0_pop/0/SpikeArray_input_layer_0_0" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
+        </projection>
+        <projection id="SpikeArray_input_layer_0_1_pop_to_mushroom" presynapticPopulation="SpikeArray_input_layer_0_1_pop" postsynapticPopulation="mushroom" synapse="syn_0">
+            <connection id="0" preCellId="../SpikeArray_input_layer_0_1_pop/0/SpikeArray_input_layer_0_1" postCellId="../mushroom/0/IF_curr_exp_mushroom"/>
         </projection>
         <projection id="projection_4" presynapticPopulation="mushroom" postsynapticPopulation="output" synapse="syn_4"/>
         <projection id="projection_5" presynapticPopulation="mushroom" postsynapticPopulation="inh_mushroom" synapse="syn_5">
