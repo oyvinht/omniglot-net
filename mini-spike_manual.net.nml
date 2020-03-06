@@ -28,15 +28,19 @@
 	<location x="0." y="0." z="10"/>
       </instance>
     </population>
+
+    <synapticConnection from="TheManySpikeArrayPop[0]"
+			to="mb[0]"
+			synapse="syn_0"/>
     
-    <projection id="TheManySpikeArrayPop_to_mb"
-		presynapticPopulation="TheManySpikeArrayPop"
-		postsynapticPopulation="mb"
-		synapse="syn_0">
-      <connection id="0"
-		  preCellId="../TheManySpikeArrayPop/0/TheManySpikeArray"
-		  postCellId="../mb/0/IF_curr_exp_mb"/>
-    </projection>
+    <!-- <projection id="TheManySpikeArrayPop_to_mb" -->
+    <!-- 		presynapticPopulation="TheManySpikeArrayPop" -->
+    <!-- 		postsynapticPopulation="mb" -->
+    <!-- 		synapse="syn_0"> -->
+    <!--   <connection id="0" -->
+    <!-- 		  preCellId="../TheManySpikeArrayPop/0/TheManySpikeArray" -->
+    <!-- 		  postCellId="../mb/0/IF_curr_exp_mb"/> -->
+    <!-- </projection> -->
     
   </network>
   
